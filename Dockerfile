@@ -47,8 +47,8 @@ COPY --from=builder /go/bin/caddy /usr/bin/caddy
 RUN /usr/bin/caddy -version
 RUN /usr/bin/caddy -plugins
 
-EXPOSE 80 443 2015
-VOLUME /root/.caddy /srv
+EXPOSE 80 443
+VOLUME /root/.caddy
 WORKDIR /srv
 
 COPY Caddyfile /etc/Caddyfile
