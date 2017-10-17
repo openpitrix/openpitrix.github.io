@@ -17,6 +17,6 @@
 default:
 
 caddy:
-	docker run --rm -it -p 2015:2015 openpitrix/openpitrix.github.io
+	docker run -d -p 80:80 -p 443:443 --restart=always -v /root/.caddy:/root/.caddy openpitrix/openpitrix.github.io
 
 clean:
