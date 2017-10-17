@@ -1,18 +1,24 @@
-0.0.0.0
+https://openpitrix.io {
+    tls appcenter@yunify.com
+    browse
 
-browse
+    log stdout
+    errors stdout
+    gzip
+    root /srv/openpitrix.github.io/public
+    hugo /srv/openpitrix.github.io
 
-log stdout
-errors stdout
+    gopkg /openpitrix https://github.com/openpitrix/openpitrix
 
-root /srv/openpitrix.github.io/public
-hugo /srv/openpitrix.github.io
+    git {
+            path /srv/openpitrix.github.io
+            repo https://github.com/openpitrix/openpitrix.github.io.git
+            hook /webhook QingCloud
+            then hugo --destination=/srv/openpitrix.github.io/public
+            interval 1800
+    }
+}
 
-gopkg /openpitrix https://github.com/openpitrix/openpitrix
-
-git {
-	path /srv/openpitrix.github.io
-	repo https://github.com/openpitrix/openpitrix.github.io.git
-	then hugo --destination=/srv/openpitrix.github.io/public
-	interval 5
+http://openpitrix.io, https://www.openpitrix.io, http://www.openpitrix.io {
+    redir https://openpitrix.io{uri}
 }
