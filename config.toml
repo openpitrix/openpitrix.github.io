@@ -1,5 +1,4 @@
 baseurl = "./"
-languageCode = "en-us"
 title = "OpenPitrix"
 googleAnalytics = ""
 disqusShortname = ""
@@ -7,73 +6,68 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+
+[languages]
+[languages.en]
+  languageCode = "en-us"
+[[languages.en.menu.main]]
+    name = "Home"
+    url = "/en/"
+    weight = 1
+[[languages.en.menu.main]]
+    name = "About"
+    url = "/en/about/"
+    weight = 2
+[[languages.en.menu.main]]
+    name = "Categories"
+    url = "/en/categories/"
+    weight = 3
+[[languages.en.menu.main]]
+    name = "Tags"
+    url = "/en/tags/"
+    weight = 4
+[[languages.en.menu.main]]
+    name = "Subscribe"
+    url = "/en/index.xml"
+    weight = 5
+[[languages.en.menu.main]]
+    name = "中文"
+    url = "/zh/"
+    weight = 6
+
+[languages.zh]
+  languageCode = "zh-cn"
+[[languages.zh.menu.main]]
+    name = "主页"
+    url = "/zh/"
+    weight = 1
+[[languages.zh.menu.main]]
+    name = "关于"
+    url = "/zh/about"
+    weight = 2
+[[languages.zh.menu.main]]
+    name = "分类"
+    url = "/zh/categories"
+    weight = 3
+[[languages.zh.menu.main]]
+    name = "标签"
+    url = "/zh/tags"
+    weight = 4
+[[languages.zh.menu.main]]
+    name = "订阅"
+    url = "/zh/index.xml"
+    weight = 5
+[[languages.zh.menu.main]]
+    name = "English"
+    url = "/en/"
+    weight = 6
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
     note = "/note/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
-
 [params]
     description = "A website built through Hugo and blogdown."
     footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) "
-[Languages]
-[Languages.en]
-[[languages.en.menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[languages.en.menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[languages.en.menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
-[[languages.en.menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-[[languages.en.menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
 
-[Languages.cn]
-[[languages.cn.menu.main]]
-    name = "主页"
-    url = "/"
-    weight = 1
-[[languages.cn.menu.main]]
-    name = "关于"
-    url = "/about/"
-    weight = 2
-[[languages.cn.menu.main]]
-    name = "分类"
-    url = "/categories/"
-    weight = 3
-[[languages.cn.menu.main]]
-    name = "标签"
-    url = "/tags/"
-    weight = 4
-[[languages.cn.menu.main]]
-    name = "订阅"
-    url = "/index.xml"
