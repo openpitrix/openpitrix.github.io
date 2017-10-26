@@ -6,6 +6,7 @@ disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
+DefaultContentLanguage = "en"
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
@@ -34,3 +35,45 @@ footnotereturnlinkcontents = "↩"
 [params]
     description = "A website built through Hugo and blogdown."
     footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) "
+[Languages]
+[Languages.en]
+[[languages.en.menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[languages.en.menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[languages.en.menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+[[languages.en.menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[languages.en.menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[Languages.cn]
+[[languages.cn.menu.main]]
+    name = "主页"
+    url = "/"
+    weight = 1
+[[languages.cn.menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 2
+[[languages.cn.menu.main]]
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+[[languages.cn.menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 4
+[[languages.cn.menu.main]]
+    name = "订阅"
+    url = "/index.xml"
