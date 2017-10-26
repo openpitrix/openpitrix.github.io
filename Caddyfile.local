@@ -1,0 +1,18 @@
+0.0.0.0
+browse
+log stdout
+errors stdout
+
+root /srv/openpitrix.github.io/public
+hugo /srv/openpitrix.github.io
+gopkg /openpitrix https://github.com/openpitrix/openpitrix
+
+git {
+        path /srv/openpitrix.github.io
+        repo https://github.com/openpitrix/openpitrix.github.io.git
+        hook /webhook QingCloud
+        then hugo --destination=/srv/openpitrix.github.io/public
+        interval 1800
+}
+
+
