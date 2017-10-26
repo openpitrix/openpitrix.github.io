@@ -42,17 +42,15 @@ RUN apk add --no-cache openssh-client git hugo
 
 # install caddy
 COPY --from=builder /go/bin/caddy /usr/bin/caddy
-
+COPY Caddyfile /etc/Caddyfile
+COPY Caddyfile.local /etc/Caddyfile.local
 # validate install
-RUN /usr/bin/caddy -version
-RUN /usr/bin/caddy -plugins
+RUN /usr/bin/caddy -version &&  /usr/bin/caddy -plugins
 
-EXPOSE 80 443
+EXPOSE 80 443 2015
 VOLUME /root/.caddy
 WORKDIR /srv
 
-COPY Caddyfile /etc/Caddyfile
-COPY index.html /srv/index.html
 
 ENTRYPOINT ["/usr/bin/caddy"]
 CMD ["--conf", "/etc/Caddyfile", "--log", "stdout"]
