@@ -44,15 +44,12 @@ RUN apk add --no-cache openssh-client git hugo
 COPY --from=builder /go/bin/caddy /usr/bin/caddy
 
 # validate install
-RUN /usr/bin/caddy -version
-RUN /usr/bin/caddy -plugins
+RUN /usr/bin/caddy -version && RUN /usr/bin/caddy -plugins \
+     && mkdir /srv/openpitrix.github.io
 
 EXPOSE 80 443
 VOLUME /root/.caddy
 WORKDIR /srv
 
-COPY Caddyfile /etc/Caddyfile
-COPY index.html /srv/index.html
-
 ENTRYPOINT ["/usr/bin/caddy"]
-CMD ["--conf", "/etc/Caddyfile", "--log", "stdout"]
+CMD ["--conf", "/srv/openpitrix.github.io/Caddyfile", "--log", "stdout"]
