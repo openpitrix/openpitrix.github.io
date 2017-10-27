@@ -5,6 +5,7 @@ slug: /index
 lang: zh
 ---
 
+
 # OpenPitrix
 
 OpenPitrix 是一个开放的平台，致力于在多个云环境中(青云QingCloud、AWS、kubernetes等）开发和部署应用程序，从而能够让应用程序无缝的运行在各个云环境中。
@@ -26,3 +27,4 @@ Pitrix 的发音是 _['paitriks]_，它意指将 IaaS 和 Paas 纵横交错连�
 OpenPitrix 社区所有[成员](docs/members.md) 均必须遵守 [CNCF 行为准则](https://github.com/cncf/foundation/blob/master/code-of-conduct.md)，我们以为只有彼此尊重对方，构建高效的、协作的社区才有可能。
 
 关于开发的说明，请移步[开发指南](docs/development.md).
+
