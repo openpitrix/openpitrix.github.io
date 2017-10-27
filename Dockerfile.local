@@ -1,0 +1,10 @@
+FROM openpitrix/caddy
+
+COPY Caddyfile.local /etc/Caddyfile
+COPY ./ /srv/openpitrix.github.io/
+
+VOLUME /root/.caddy
+WORKDIR /srv/openpitrix.github.io/
+RUN hugo
+ENTRYPOINT ["/usr/bin/caddy"]
+CMD ["--conf", "/etc/Caddyfile", "--log", "stdout"]
