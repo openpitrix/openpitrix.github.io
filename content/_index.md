@@ -14,10 +14,10 @@ The project originates from [QingCloud AppCenter](https://appcenter.qingcloud.co
 
 ## Design
 
-Basic idea is to decouple application repository and runtime environment. The runtime environment that an application can run is by matching the labels of runtime environment and the selector of the repository where the application is from. Please check out how to [design the project](docs/design/README.md).
+Basic idea is to decouple application repository and runtime environment. The runtime environment that an application can run is by matching the labels of runtime environment and the selector of the repository where the application is from. Please check out how to [design the project](https://github.com/openpitrix/openpitrix/blob/master/docs/design/README.md).
 
 ## Contributing to the project
 
-All [members](docs/members.md) of the OpenPitrix community must abide by the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Only by respecting each other can we develop a productive, collaborative community.
+All [members](https://github.com/openpitrix/openpitrix/blob/master/docs/members.md) of the OpenPitrix community must abide by the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Only by respecting each other can we develop a productive, collaborative community.
 
-You can then check out how to [setup for development](docs/development.md).
+You can then check out how to [setup for development](https://github.com/openpitrix/openpitrix/blob/master/docs/development.md).
