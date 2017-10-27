@@ -4,7 +4,7 @@ log stdout
 errors stdout
 
 root /srv/openpitrix.github.io/public
-hugo 
+on startup hugo
 gopkg /openpitrix https://github.com/openpitrix/openpitrix
 
 
