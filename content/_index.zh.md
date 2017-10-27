@@ -20,11 +20,11 @@ Pitrix 的发音是 _['paitriks]_，它意指将 IaaS 和 Paas 纵横交错连�
 
 ## 设计
 
-设计的基本思路就是解耦应用程序的仓库和运行时环境。应用程序可以通过匹配运行时环境的标签和应用来源的仓库选择器来运行。有关项目的设计详情请移步[项目设计](docs/design/README.md)
+设计的基本思路就是解耦应用程序的仓库和运行时环境。应用程序可以通过匹配运行时环境的标签和应用来源的仓库选择器来运行。有关项目的设计详情请移步[项目设计](https://github.com/openpitrix/openpitrix/blob/master/docs/design/README.md)
 
 ## 为项目做贡献
 
-OpenPitrix 社区所有[成员](docs/members.md) 均必须遵守 [CNCF 行为准则](https://github.com/cncf/foundation/blob/master/code-of-conduct.md)，我们以为只有彼此尊重对方，构建高效的、协作的社区才有可能。
+OpenPitrix 社区所有[成员](https://github.com/openpitrix/openpitrix/blob/master/docs/members.md) 均必须遵守 [CNCF 行为准则](https://github.com/cncf/foundation/blob/master/code-of-conduct.md)，我们以为只有彼此尊重对方，构建高效的、协作的社区才有可能。
 
-关于开发的说明，请移步[开发指南](docs/development.md).
+关于开发的说明，请移步[开发指南](https://github.com/openpitrix/openpitrix/blob/master/docs/development.md).
 
