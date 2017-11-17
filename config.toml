@@ -12,6 +12,7 @@ defaultContentLanguageInSubdir = true
 [languages]
 [languages.en]
   languageCode = "en-us"
+  footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [Gitee](https://gitee.com/openpitrix)"
 [[languages.en.menu.main]]
     name = "Home"
     url = "/en/"
@@ -39,6 +40,7 @@ defaultContentLanguageInSubdir = true
 
 [languages.zh]
   languageCode = "zh-cn"
+  footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [码云](https://gitee.com/openpitrix)"
 [[languages.zh.menu.main]]
     name = "主页"
     url = "/zh/"
@@ -69,5 +71,4 @@ defaultContentLanguageInSubdir = true
     note = "/note/:year/:month/:day/:slug/"
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) "
 
