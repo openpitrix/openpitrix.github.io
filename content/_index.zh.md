@@ -5,6 +5,7 @@ slug: /index
 lang: zh
 ---
 
+[<img src="/logo-small.png" style="max-width:15%;min-width:40px;float:right;" alt="OpenPitrix" />](https://openpitrix.io)
 
 # OpenPitrix
 
