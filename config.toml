@@ -69,5 +69,5 @@ defaultContentLanguageInSubdir = true
     note = "/note/:year/:month/:day/:slug/"
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) "
+    footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [码云](https://gitee.com/openpitrix)"
 
