@@ -1,7 +1,7 @@
 ---
 title: "Why use slack for our daily communications?"
 author: ""
-date: {{ .Date }}
+date: 2017-12-08T12:47:05+08:00 
 categories:
   - 日志
   - OpenPitrix
@@ -14,7 +14,7 @@ tags:
 
 ## Why Slack?
 
-first of all, Slack it cool.
+first of all, Slack is cool.
 
 Slack brings all your team's communication together, giving everyone a shared workspace where conversations are organized and accessible.
 
