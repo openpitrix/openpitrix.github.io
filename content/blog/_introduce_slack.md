@@ -1,3 +1,17 @@
+---
+title: "Why use slack for our daily communications?"
+author: ""
+date: {{ .Date }}
+categories:
+  - 日志
+  - OpenPitrix
+tags:
+  - Markdown
+  - TeamBuild
+  - Softskill
+  - Microservice
+---
+
 ## Why Slack?
 
 first of all, Slack it cool.
