@@ -6,20 +6,28 @@ title: Home
 
 # OpenPitrix
 
-OpenPitrix is an open platform to package and deploy applications into multiple cloud environments such as QingCloud, AWS, Kubernetes etc. Pitrix _['paitriks]_ means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = **P**aaS + **I**aaS + Ma**trix**. It also means a matrix that contains endless (PI - the Greek letter "π") applications. 
+OpenPitrix is an Open-source framework for package, deployment, orchestration and management enterprise applications into multiple cloud environments including QingCloud, AWS, OpenStack, Kubernetes and etc.
 
-----
+Pitrix [‘paitriks] means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications.
 
-## Motivation
 
-The project originates from [QingCloud AppCenter](https://appcenter.qingcloud.com) which helps developers to create cloud-based enterprise applications in a few days and sell them on the center. In addition, the learning curve of how to [develop such applications](https://appcenter-docs.qingcloud.com/developer-guide/) is extremely low. Usually it takes a couple of hours for a developer to understand the working flow. Since QingCloud AppCenter was launched, many customers and partners have been asking us if it supports IaaS other than QingCloud such as AWS, Vmware. That is where the project comes from. 
+##Why OpenPitrix?
 
-## Design
+In the Cloud era, all enterprise applications should be run on different cloud computing platforms, no matter the traditional or the microservice applications. OpenPitrix is born for resolving this problem.
 
-Basic idea is to decouple application repository and runtime environment. The runtime environment that an application can run is by matching the labels of runtime environment and the selector of the repository where the application is from. Please check out how to [design the project](https://github.com/openpitrix/openpitrix/blob/master/docs/design/README.md).
+## OpenPitrix Features
 
-## Contributing to the project
+* Compatible with Most Applications
+By adopting the distributed configuration management and abstracting the meta configuration information, OpenPitrix is compatible with most applications, including the monolithic, distributed, microservice and etc.
 
-All [members](https://github.com/openpitrix/openpitrix/blob/master/docs/members.md) of the OpenPitrix community must abide by the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md). Only by respecting each other can we develop a productive, collaborative community.
+* Support Multiple Cloud Platforms
+Adopting the plug-in style development framework to abstract the interface of current mainstream cloud platform, reducing the complexity for developers.
+Public cloud platforms supported: AWS, GCE, Azure, QingCloud and etc.Private cloud platforms supported: Kubernetes, OpenStack, QingCloud and etc.
 
-You can then check out how to [setup for development](https://github.com/openpitrix/openpitrix/blob/master/docs/development.md).
+* Build with Microservice Architecture
+Use the microservice architecture to break applications into more manageable pieces for faster deployment and update cycles. Smaller modules allow each application service to be deployed, updated and managed independently.
+
+* Reduce Complexity
+Dramatically reducing the complexity of the cloud applications’ development, deployment and operation through the declarative template specifications.
+
+Case Studies
