@@ -1,9 +1,18 @@
-  <footer>
-  {{ partial "foot_custom.html" . }}
-  {{ with .Site.Params.footer }}
-  <hr/>
-  {{ . | markdownify }}
-  {{ end }}
-  </footer>
-  </body>
+<footer>
+  <div class="footer-about">
+    <h1>About Pitrix itself</h1>
+    <p>
+      Pitrix [‘paitriks]means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications.
+    </p>
+  </div>
+  <div class="footer-business">
+    <div class="container">
+      <img src="/assets/logo2.svg" alt="">
+      <span class="icp">Openpitrix Technology © 2018</span>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="/js/main.js"></script>
+</body>
 </html>

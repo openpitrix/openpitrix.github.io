@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "/fonts/roboto/roboto.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     {{ partial "head_custom.html" . }}
   </head>
 
   <body>
-    <nav>
-    <ul class="menu">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
-    <hr/>
+    <nav class="header">
+      <div class="container">
+        <img src="/assets/logo.svg" alt="" height="36" class="logo">
+        <ul class="menu">
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
     </nav>

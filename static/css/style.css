@@ -1,51 +1,114 @@
 body {
-  max-width: 800px;
   margin: auto;
-  padding: 1em;
-  line-height: 1.5em;
 }
 
-/* header and footer areas */
-.menu { padding: 0; }
-.menu li { display: inline-block; }
-.article-meta, .menu a {
+.container {
+  margin: 0 auto;
+  max-width: 1128px;
+}
+
+.logo {
+  height: 36px;
+  margin: 24px 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header.pos-fix {
+  background: #fff;
+}
+
+.menu {
+  margin: 0;
+  float: right;
+  list-style: none;
+}
+.menu li {
+  display: inline-block;
+  padding: 34px 0;
+  margin-left: 46px;
+}
+.menu li a {
+  color: #6c2db5;
+  opacity: 0.6;
+  font-weight: 500;
+  text-align: left;
   text-decoration: none;
-  background: #eee;
-  padding: 5px;
-  border-radius: 5px;
-}
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
-hr {
-  border-style: dashed;
-  color: #ddd;
 }
 
-/* code */
-pre {
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
-  padding: 1em;
-  overflow-x: auto;
-}
-code { background: #f9f9f9; }
-pre code { background: none; }
-
-/* misc elements */
-img, iframe, video { max-width: 100%; }
-main { hyphens: auto; }
-blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
-  padding: 3px 1em 3px;
+#main {
+  height: 720px;
 }
 
-table {
-  margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
+#main .section-content {
+  padding-top: 235px;
 }
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee }
+
+#main .section-title {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
+  color: #2f0d56;
+}
+
+#main .section-desc {
+  margin: 16px 0 0;
+  width: 660px;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c2db5;
+}
+
+#main .section-link {
+  margin-top: 20px;
+  color: #6c2db5;
+  font-weight: 500;
+}
+
+footer {
+  background-image: linear-gradient(103deg, #212031, #3e3d49);
+}
+
+.footer-about {
+  color: #fff;
+  text-align: center;
+  padding: 100px 0 122px 0;
+}
+
+.footer-about h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.footer-about p {
+  width: 760px;
+  margin: 0 auto;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-business {
+  text-align: right;
+  border-top: 1px solid #ffffff33;
+}
+
+.footer-business img {
+  float: left;
+  margin-top: 16px;
+}
+
+.footer-business .icp {
+  display: inline-block;
+  margin: 25px 0;
+  line-height: 16px;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 14px;
+}

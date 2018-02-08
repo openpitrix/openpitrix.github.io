@@ -14,57 +14,41 @@ defaultContentLanguageInSubdir = true
   languageCode = "en-us"
   footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [Gitee](https://gitee.com/openpitrix)"
 [[languages.en.menu.main]]
-    name = "Home"
+    name = "OpenPitrix"
     url = "/en/"
     weight = 1
 [[languages.en.menu.main]]
-    name = "About"
-    url = "/en/about/"
+    name = "Features"
+    url = "/en/features/"
     weight = 2
 [[languages.en.menu.main]]
-    name = "Categories"
-    url = "/en/categories/"
+    name = "Case Studies"
+    url = "/en/cases/"
     weight = 3
 [[languages.en.menu.main]]
-    name = "Tags"
-    url = "/en/tags/"
+    name = "About"
+    url = "/en/about/"
     weight = 4
-[[languages.en.menu.main]]
-    name = "Subscribe"
-    url = "/en/index.xml"
-    weight = 5
-[[languages.en.menu.main]]
-    name = "中文"
-    url = "/zh/"
-    weight = 6
 
 [languages.zh]
   languageCode = "zh-cn"
   footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [码云](https://gitee.com/openpitrix)"
 [[languages.zh.menu.main]]
-    name = "主页"
+    name = "OpenPitrix"
     url = "/zh/"
     weight = 1
 [[languages.zh.menu.main]]
-    name = "关于"
-    url = "/zh/about"
+    name = "特性"
+    url = "/zh/features"
     weight = 2
 [[languages.zh.menu.main]]
-    name = "分类"
-    url = "/zh/categories"
+    name = "案例"
+    url = "/zh/cases"
     weight = 3
 [[languages.zh.menu.main]]
-    name = "标签"
-    url = "/zh/tags"
+    name = "关于"
+    url = "/zh/about"
     weight = 4
-[[languages.zh.menu.main]]
-    name = "订阅"
-    url = "/zh/index.xml"
-    weight = 5
-[[languages.zh.menu.main]]
-    name = "English"
-    url = "/en/"
-    weight = 6
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
