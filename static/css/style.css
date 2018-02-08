@@ -34,8 +34,8 @@ body {
 .menu li a {
   color: #6c2db5;
   opacity: 0.6;
-	font-weight: 500;
-	text-align: left;
+  font-weight: 500;
+  text-align: left;
   text-decoration: none;
 }
 
@@ -50,9 +50,9 @@ body {
 #main .section-title {
   margin: 0;
   font-size: 40px;
-	font-weight: 500;
-	line-height: 1.45;
-	text-align: left;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
   color: #2f0d56;
 }
 
@@ -60,8 +60,8 @@ body {
   margin: 16px 0 0;
   width: 660px;
   opacity: 0.5;
-	font-size: 16px;
-	line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
   color: #6c2db5;
 }
 
@@ -83,15 +83,15 @@ footer {
 
 .footer-about h1 {
   font-size: 40px;
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .footer-about p {
   width: 760px;
   margin: 0 auto;
-	opacity: 0.8;
-	font-size: 16px;
-	line-height: 1.5;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .footer-business {
@@ -110,5 +110,5 @@ footer {
   line-height: 16px;
   color: #fff;
   opacity: 0.8;
-	font-size: 14px;
+  font-size: 14px;
 }
