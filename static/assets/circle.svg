@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="46px" viewBox="0 0 52 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>圆</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="openpitrix官网页面-copy-11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1207.000000, -3829.000000)">
+        <g id="圆" transform="translate(1201.000000, 3817.000000)">
+            <rect id="Rectangle-76" x="0" y="0" width="68" height="68"></rect>
+            <path d="M38.5,46 C46.5081289,46 53,39.5081289 53,31.5 C53,23.4918711 46.5081289,17 38.5,17 C30.4918711,17 24,23.4918711 24,31.5 C24,39.5081289 30.4918711,46 38.5,46 Z M38.5,51 C27.7304474,51 19,42.2695526 19,31.5 C19,20.7304474 27.7304474,12 38.5,12 C49.2695526,12 58,20.7304474 58,31.5 C58,42.2695526 49.2695526,51 38.5,51 Z" id="Oval-17-Copy" fill="#EDAD15" fill-rule="nonzero"></path>
+            <circle id="Oval-17" fill="#F6CC67" cx="19.5" cy="44.5" r="13.5"></circle>
+        </g>
+    </g>
+</svg>

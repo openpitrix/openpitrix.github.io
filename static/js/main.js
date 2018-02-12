@@ -4,8 +4,10 @@
 
   function init() {
     AOS.init({
-      easing: 'ease-in-out',
-      duration: 600
+      'easing': 'ease-in-out',
+      'duration': 800,
+      'once': true,
+      'anchor-placement': 'bottom-center',
     });
 
     window.onscroll = scrolHandler;

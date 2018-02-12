@@ -13,7 +13,7 @@
   <body>
     <nav class="header">
       <div class="container">
-        <img src="/assets/logo.svg" alt="" height="36" class="logo">
+        <h1 class="logo"><a href="#"><img src="/assets/logo.svg" alt="" height="36"></a></h1>
         <ul class="menu">
           {{ range .Site.Menus.main }}
           <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
