@@ -11,11 +11,13 @@ body {
 
 /* common */
 .container {
+  position: relative;
   margin: 0 auto;
   max-width: 1128px;
 }
 
 .section-title {
+  position: relative;
   margin: 0 0 20px;
   font-size: 40px;
   font-weight: 500;
@@ -56,6 +58,8 @@ body {
 
 /* header */
 .logo {
+  display: inline-block;
+  vertical-align: middle;
   height: 36px;
   margin: 24px 0;
 }
@@ -140,16 +144,6 @@ footer {
   opacity: 0.8;
 }
 
-.second .container,
-.third .container,
-.fourth .container,
-.fifth .container,
-.sixth .container,
-.seventh .container,
-.eight .container {
-  position: relative;
-}
-
 /* section.first */
 .first {
   height: 720px;
@@ -186,27 +180,27 @@ footer {
 
 .section-img11 {
   position: absolute;
+  top: 210px;
+  left: 570px;
+  z-index: 1;  
   width: 265px;
   height: 425px;
-  top: 200px;
-  right: 447px;
-  z-index: 1;
 }
 .section-img12 {
   position: absolute;
+  top: -111px;
+  left: 745px;
+  z-index: 1;  
   width: 273px;
   height: 341px;
-  top: -111px;
-  right: 249px;
-  z-index: 1;
 }
 .section-img13 {
   position: absolute;
+  top: 414px;
+  right: -80px;
+  z-index: 1;  
   width: 270px;
   height: 156px;
-  top: 414px;
-  right: 48px;
-  z-index: 1;
 }
 .section-img14 {
   position: absolute;
@@ -218,7 +212,7 @@ footer {
 
 /* section.second */
 .second {
-  min-height: 720px;
+  height: 720px;
   background-color: #fff;
 }
 
@@ -279,10 +273,59 @@ footer {
   height: 454px;
 }
 
+/* section.third */
+.third {
+	height: 720px;
+	background-image: linear-gradient(to right, #fdfdfd, #f3f2f4);
+}
+
+.third .section-title-icon {
+  position: absolute;
+  left: -70px;
+  top: -55px;
+}
+
+.third .section-content {
+  padding-top: 248px;
+}
+
+.section-img31 {
+  position: absolute;
+  top: -40px;
+  right: 285px;
+  z-index: 1;
+  width: 309px;
+  height: 377px;
+}
+
+.section-img32 {
+  position: absolute;
+  top: 317px;
+  right: -455px;
+  z-index: 2;
+  width: 654px;
+  height: 458px;
+}
+
+.section-img33 {
+  position: absolute;
+  top: 100px;
+  right: -75px;
+  z-index: 3;
+  width: 560px;
+  height: 480px;
+}
+
 /* section.fourth */
 .fourth {
-  min-height: 665px;
+  height: 665px;
   background-color: #fff;
+}
+
+.fourth .section-title-icon {
+  position: absolute;
+  right: 75px;
+  top: -50px;
 }
 
 .fourth .section-content {
@@ -293,7 +336,7 @@ footer {
 .section-img41 {
   position: absolute;
   left: -165px;
-  top: 30px;
+  top: 35px;
   z-index: 1;
   width: 613px;
   height: 514px;
@@ -302,7 +345,7 @@ footer {
 .section-img42 {
   position: absolute;
   left: -165px;
-  top: 115px;
+  top: 120px;
   z-index: 2;
   width: 713px;
   height: 648px;
@@ -310,8 +353,14 @@ footer {
 
 /* section.fifth */
 .fifth {
-  min-height: 775px;
+  height: 775px;
   background-color: #fff;
+}
+
+.fifth .section-title-icon {
+  position: absolute;
+  left: -60px;
+  top: -52px;
 }
 
 .fifth .section-content {
@@ -338,8 +387,14 @@ footer {
 
 /* section.sixth */
 .sixth {
-  min-height: 730px;
+  height: 730px;
 	background-image: linear-gradient(to right, #fdfdfd, #f5f4f6);
+}
+
+.sixth .section-title-icon {
+  position: absolute;
+  right: 45px;
+  top: -40px;
 }
 
 .sixth .section-content {
@@ -421,7 +476,7 @@ footer {
 
 .section-img69 {
   position: absolute;
-  left: 200px;
+  left: 175px;
   top: 675px;
   z-indx: -1;
   width: 144px;
@@ -484,11 +539,15 @@ footer {
 
 /* section.seventh */
 .seventh {
-  min-height: 730px;
-	background-image: linear-gradient(to left, #794db3, #854fb9 32%, #484999);
+  height: 730px;
+	background-image: linear-gradient(to left, #7549AE, #854fb9 32%, #464796);
 }
 
 .seventh .section-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
   width: 100%;
   padding: 95px 0;
 }
@@ -503,7 +562,8 @@ footer {
   left: 50%;
   top: 230px;
   z-index: 2;
-  width: 88%;
+  max-width: 1266px;
+  width: 96%;
   height: 526px;
   border-radius: 4px;
 	background-color: #ffffff;
@@ -519,17 +579,18 @@ footer {
 .section-img70 {
   position: absolute;
   right: 0;
-  top: -335px;
+  top: -334px;
   width: 347px;
   height: 336px;
 }
 
 .section-img71 {
   position: absolute;
-  left: 155px;
+  left: 50%;
   top: -30px;
-  width: 327px;
-  height: 41px;
+  width: 1440px;
+  height: 759px;
+  transform: translate(-50%, 0);
 }
 
 .section-img72 {
@@ -550,7 +611,7 @@ footer {
 
 /* section.eighth */
 .eighth {
-  min-height: 410px;
+  height: 410px;
 }
 
 .eighth .section-content {
