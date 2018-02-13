@@ -3,12 +3,14 @@
 <div id="main">
   <section class="first" id="first">
     <div class="container">
-      <div class="section-content" data-aos="fade-up">
-        <h2 class="section-title">Application Management</h2>
-        <h2 class="section-title">Platform on Multi-Cloud Environment</h2>
-        <p class="section-desc">OpenPitrix is an Open-source, enterprise  system for  package ,deploy and orchestration applications into multiple cloud environments such as QingCloud, AWS, Kubernetes etc.</p>
-        <p class="section-link">COMING SOON...</p>
-      </div>
+      {{ with .Site.Params.Index.First }}
+        <div class="section-content" data-aos="fade-up">
+          <h2 class="section-title">{{ .title }}</h2>
+          <h2 class="section-title">{{ .subtitle }}</h2>
+          <p class="section-desc">{{ .desc }}</p>
+          <p class="section-link">{{ .link }}</p>
+        </div>
+      {{ end }}
 
       <img class="section-img11 float float11" src="/assets/1-1.png" alt="">
       <img class="section-img12 float float12" src="/assets/1-2.png" alt="">
@@ -20,21 +22,20 @@
 
   <section class="second" id="second">
     <div class="container">
-      <div class="section-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700" data-aos-offset="300" data-aos-anchor="#second">
-        <h3 class="section-title">Why OpenPitrix?</h3>
-        <div class="section-desc">
-          Since software used in business, diversity software was developed. For example, categorize by architecture：
-          <ul>
-            <li>Java EE traditional enterprise application.</li>
-            <li>LAMP ( linux,apache,mysql/postgresql,php/python/perl ) Open Source Software stack.</li>
-            <li>Virtalization image.</li>
-            <li>Container image.</li>
-            <li>Microservice components.</li>
-            <li>and a lot of more.</li>
-          </ul>
-          This is Cloud era, so all above application must run on cloud computing, Just like QingCloud,AWS, Or VMware, Kubernetes based envrionment. Which framework or platform can do this? So OpenPitrix make sence, born for resovle this problem.
+      {{ with .Site.Params.Index.Second }}
+        <div class="section-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700" data-aos-offset="300" data-aos-anchor="#second">
+          <h3 class="section-title">{{ .title }}</h3>
+          <div class="section-desc">
+            {{ .desc_begin }}
+            <ul>
+              {{ range .architecture }}
+                <li>{{ .name }}</li>
+              {{ end }}
+            </ul>
+            {{ .desc_end }}
+          </div>
         </div>
-      </div>
+      {{ end }}
 
       <img class="section-img21" src="/assets/2-1.png" alt="star1" data-aos="fade-up-left" data-aos-delay="250" data-aos-offset="300" data-aos-anchor="#second" />
       <img class="section-img22" src="/assets/2-2.png" alt="star2" data-aos="fade-up-left" data-aos-delay="100" data-aos-offset="300" data-aos-anchor="#second" />
@@ -47,15 +48,15 @@
 
   <section class="third" id="third">
     <div class="container">
-      <div class="section-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="300" data-aos-anchor="#third">
-        <h3 class="section-title">
-          <img class="section-title-icon" src="/assets/diamond.svg" data-aos="zoom-out" data-aos-delay="900" />
-          Template application and deployment framework 
-        </h3>
-        <p class="section-desc">
-          Significantly reduce learning costs and operational complexity through declarative template specifications, reducing development cycles from months to days or even hours, dramatically reducing cloud application development, deployment and operational complexity.          
-        </p>
-      </div>
+      {{ with .Site.Params.Index.Third }}
+        <div class="section-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="300" data-aos-anchor="#third">
+          <h3 class="section-title">
+            <img class="section-title-icon" src="/assets/diamond.svg" data-aos="zoom-out" data-aos-delay="900" />
+            {{ .title }}
+          </h3>
+          <p class="section-desc">{{ .desc }}</p>
+        </div>
+      {{ end }}
       
       <img class="section-img31" src="/assets/3-1.png" alt="ui1" data-aos="fade-down-right" data-aos-offset="300" data-aos-anchor="#third" />
       <img class="section-img32" src="/assets/3-2.png" alt="ui2" data-aos="fade-up-left" data-aos-offset="300" data-aos-anchor="#third" />
@@ -65,19 +66,16 @@
 
   <section class="fourth" id="fourth">
     <div class="container">
-      <div class="section-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="300" data-aos-anchor="#fourth">
-        <h3 class="section-title">
-          <img class="section-title-icon" src="/assets/cloud.svg" data-aos="zoom-out" data-aos-delay="900" />
-          Support multiple cloud platforms
-        </h3>
-        <p class="section-desc">
-          Adopted plug-in style development framework, abstraction the current mainstream cloud platform interface , uniform them for the user is completely transparent, reducing complexity for application developer.
-        </p>
-        <p class="section-desc" data-aos="fade">
-          public cloud platform supported include: AWS, GCE, Azure, QingCloud,etc.<br />
-          private cloud platform supported : Kubernetes, OpenStack, QingCloud,etc.        
-        </p>
-      </div>
+      {{ with .Site.Params.Index.Fourth }}
+        <div class="section-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="300" data-aos-anchor="#fourth">
+          <h3 class="section-title">
+            <img class="section-title-icon" src="/assets/cloud.svg" data-aos="zoom-out" data-aos-delay="900" />
+            {{ .title }}
+          </h3>
+          <p class="section-desc">{{ .desc_begin }}</p>
+          <p class="section-desc">{{ .desc_end }}</p>
+        </div>
+      {{ end }}
 
       <img class="section-img41" src="/assets/4-1.png" alt="support-cloud" data-aos="fade-up-right" data-aos-offset="300" data-aos-anchor="#fourth" />
       <img class="section-img42" src="/assets/4-2.png" alt="support" data-aos="fade-up-right" data-aos-delay="400" data-aos-offset="300" data-aos-anchor="#fourth" />
@@ -86,15 +84,15 @@
 
   <section class="fifth" id="fifth">
     <div class="container">
-      <div class="section-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="300" data-aos-anchor="#fifth">
-        <h3 class="section-title">
-          <img class="section-title-icon" src="/assets/star.svg" data-aos="zoom-out" data-aos-delay="900" />
-          Unify all kind of application,monolitic,microservice,distributed,etc.
-        </h3>
-        <p class="section-desc">
-          The technology is evolving, application is same, but old sytle not disappear. all kinds of application coexist in cloud computing era. OpenPitrix adopted distributed configurtion management, abstract meta configuration infomation, compatible with all(almost) application.
-        </p>
-      </div>
+      {{ with .Site.Params.Index.Fifth }}
+        <div class="section-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="300" data-aos-anchor="#fifth">
+          <h3 class="section-title">
+            <img class="section-title-icon" src="/assets/star.svg" data-aos="zoom-out" data-aos-delay="900" />
+            {{ .title }}
+          </h3>
+          <p class="section-desc">{{ .desc }}</p>
+        </div>
+      {{ end }}
 
       <img class="section-img51" src="/assets/5-1.png" alt="unify-bg" data-aos="fade" data-aos-offset="300" data-aos-anchor="#fifth" />
       <img class="section-img52" src="/assets/5-2.png" alt="unify" data-aos="fade-up" data-aos-offset="300" data-aos-delay="400" data-aos-anchor="#fifth" />
@@ -103,15 +101,15 @@
 
   <section class="sixth" id="sixth">
     <div class="container">
-      <div class="section-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1200" data-aos-offset="200" data-aos-anchor="#sixth">
-        <h3 class="section-title">
-          <img class="section-title-icon" src="/assets/circle.svg" data-aos="zoom-out" data-aos-delay="1800" />
-          Adopted microservice for openpitrix itself
-        </h3>
-        <p class="section-desc">
-          Openpitrix adopted microservice, every funcation have indepent service, architecture high level .
-        </p>
-      </div>
+      {{ with .Site.Params.Index.Sixth }}
+        <div class="section-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1200" data-aos-offset="200" data-aos-anchor="#sixth">
+          <h3 class="section-title">
+            <img class="section-title-icon" src="/assets/circle.svg" data-aos="zoom-out" data-aos-delay="1800" />
+            {{ .title }}
+          </h3>
+          <p class="section-desc">{{ .desc }}</p>
+        </div>
+      {{ end }}
 
       <img class="section-img61" src="/assets/6-1.png" alt="ui" data-aos="fade" data-aos-offset="200" data-aos-anchor="#sixth" />
       <img class="section-img62" src="/assets/6-2.png" alt="dot" data-aos="fade" data-aos-delay="100" data-aos-offset="200" data-aos-anchor="#sixth" />
@@ -137,11 +135,13 @@
     </div>
 
     <div class="container">
-      <div class="section-content">
-        <h3 class="section-title">As the picture show</h3>
-      </div>
-      <div class="section-process">
-      </div>
+      {{ with .Site.Params.Index.Seventh }}
+        <div class="section-content">
+          <h3 class="section-title">{{ .title }}</h3>
+        </div>
+      {{ end }}
+
+      <div class="section-process"></div>
 
       <img class="section-img71" src="/assets/7-1.png" alt="wave2" />
       <img class="section-img72" src="/assets/7-2.png" alt="diamond1" />
@@ -151,12 +151,14 @@
 
   <section class="eighth" id="eighth">
     <div class="container">
-      <div class="section-content">
-        <h3 class="section-title">Case Studies</h3>
-        <div class="section-case">
-          <a href="#"><img src="/assets/8-1.png" alt="中国民生银行" /></a><a href="#"><img src="/assets/8-2.png" alt="泰康人寿" /></a>
+      {{ with .Site.Params.Index.Eighth }}     
+        <div class="section-content">
+          <h3 class="section-title">{{ .title }}</h3>
+          <div class="section-case">
+            <a href="#"><img src="/assets/8-1.png" alt="中国民生银行" /></a><a href="#"><img src="/assets/8-2.png" alt="泰康人寿" /></a>
+          </div>
         </div>
-      </div>
+      {{ end }}
     </div>
   </section>
 </div>

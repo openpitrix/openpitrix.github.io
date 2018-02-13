@@ -113,9 +113,10 @@ footer {
   padding: 100px 0 122px 0;
 }
 
-.footer-about h1 {
+.footer-about h2 {
   font-size: 40px;
   font-weight: 500;
+  margin: 25px 0;
 }
 
 .footer-about p {
