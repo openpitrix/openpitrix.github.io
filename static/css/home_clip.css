@@ -1,0 +1,275 @@
+section.seventh .section-process img {
+  width: 53px;
+  height: 53px;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.ellipse-big {
+  width: 88px !important;
+  height: 66px !important;
+}
+
+#c1 {
+  stroke-opacity: 0.2;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+#c2 {
+  stroke-opacity: 0.2;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+#c3 {
+  stroke-opacity: 0.2;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+@keyframes fade {
+  0% {
+    stroke-opacity: 0.0;
+  }
+  50% {
+    stroke-opacity: 0.2;
+  }
+  100% {
+    stroke-opacity: 0.0;
+    stroke-width: 26;
+    r: 30;
+  }
+}
+
+.wave-effect {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#ring-1 {
+  opacity: 0.3;
+  animation-name: wave-rings;
+  animation-duration: 3s;
+}
+
+#ring-2 {
+  opacity: 0.1;
+  animation-name: wave-rings;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+#ring-3 {
+  opacity: 0.01;
+  animation-name: wave-rings;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+
+@keyframes wave-rings {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#java {
+  top: 126px;
+  left: 90px;
+}
+#python {
+  top: 163px;
+  left: 197px;
+}
+#linux {
+  top: 193px;
+  left: 296px;
+}
+#more {
+  top: 243px;
+  left: 395px;
+}
+#docker {
+  top: 282px;
+  left: 296px;
+}
+#cplusplus {
+  top: 319px;
+  left: 197px;
+}
+#php {
+  top: 362px;
+  left: 90px;
+}
+
+#qingcloud {
+  top: 148px;
+  right: 363px;
+}
+#aws {
+  top: 68px;
+  right: 235px;
+}
+#gce {
+  top: 148px;
+  right: 103px;
+}
+#cloudstack {
+  top: 315px;
+  right: 103px;
+}
+#vmware {
+  top: 315px;
+  right: 363px;
+}
+#k8s {
+  top: 393px;
+  right: 235px;
+}
+
+.right-dots {
+  position: absolute;
+  top: 110px;
+  right: 130px;
+}
+
+.right-dots .outer-line, .inner-line{
+  fill: #d8d8d8;
+}
+
+.center-pitrix-icon {
+  position: absolute;
+  top: 150px;
+  left: 512px;
+}
+
+.left-dots {
+  position: absolute;
+  top: 145px;
+  left: 145px;
+}
+
+@keyframes movingLines {
+  from {
+    stroke: #b696d9;
+  }
+  to {
+    stroke: #d8d8d8;
+    opacity: .5;
+  }
+}
+
+.left-dots .movingLine {
+  animation-name: movingLines;
+  animation-duration: 3.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dotWave {
+  from {
+    fill: #b696d9;
+    opacity: 1;
+  }
+  to {
+    fill: #d8d8d8;
+    opacity: .5;
+  }
+}
+
+.right-dots circle {
+  animation-name: dotWave;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.right-dots .inner-line {
+  animation-delay: .5s;
+}
+
+.right-dots .outer-line {
+  animation-delay: 1s;
+}
+
+.l-line-1 {
+  stroke-dasharray: 0.5 215;
+  animation-delay: .5s;
+}
+
+.l-line-2 {
+  stroke-dasharray: 0.5 197;
+  animation-delay: 1s;
+}
+
+.l-line-3 {
+  stroke-dasharray: 0.5 125;
+  animation-delay: 1.5s;
+}
+
+.l-line-4 {
+  stroke-dasharray: 0.5 107;
+  animation-delay: 2s;
+}
+
+.l-line-5{
+  stroke-dasharray: 0.5 41;
+  animation-delay: 2.5s;
+}
+
+.l-line-6{
+  stroke-dasharray: 0.5 23;
+  animation-delay: 3s;
+}
+
+.l-line-7{
+  stroke-dasharray: 0.5 24;
+  animation-delay: 3.5s;
+}
+
+.movingLine {
+  /*animation: movingLines 500ms linear infinite;*/
+  stroke: #d8d8d8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 7px;
+}
+
+.beam {
+  position: absolute;
+  top: 245px;
+  left: 736px;
+  /*width: 184px;*/
+  /*height: 14px;*/
+  /*border-radius: 20px;*/
+  /*background-image: linear-gradient(to right, rgba(238, 238, 238, 0.0), rgba(206, 172, 231, 0.56) 51%, #934ca7);*/
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(228px, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

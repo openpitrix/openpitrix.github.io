@@ -6,14 +6,13 @@
     </div>
   {{ end }}
 
-  {{ with .Site.Params }}
-    <div class="footer-business">
-      <div class="container">
-        <img src="/assets/logo2.svg" alt="">
-        <span class="icp">{{ .footer }}</span>
-      </div>
+  <div class="footer-business">
+    <div class="container">
+      <img src="/assets/logo2.svg" alt="">
+      <span class="icp">{{ .Site.Copyright }}</span>
     </div>
-  {{ end }}
+  </div>
+
 </footer>
 <script src="/js/lib/jquery-3.3.1.min.js"></script>
 <script src="/js/plugin/aos.js"></script>
