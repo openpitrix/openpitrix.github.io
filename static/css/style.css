@@ -563,8 +563,8 @@ footer {
   left: 50%;
   top: 230px;
   z-index: 2;
-  max-width: 1266px;
-  width: 96%;
+  /*max-width: 1266px;*/
+  width: 1266px;
   height: 526px;
   border-radius: 4px;
 	background-color: #ffffff;

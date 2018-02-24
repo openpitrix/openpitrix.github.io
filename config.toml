@@ -7,13 +7,12 @@ preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-
+copyright = "Openpitrix Technology © 2018"
 
 [languages]
 [languages.en]
     languageCode = "en-us"
-    footer = "Openpitrix Technology © 2018"
-    #footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [Gitee](https://gitee.com/openpitrix)"
+    footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [Gitee](https://gitee.com/openpitrix)"
 
     [[languages.en.menu.main]]
         name = "OpenPitrix"
@@ -21,11 +20,13 @@ defaultContentLanguageInSubdir = true
         weight = 1
     [[languages.en.menu.main]]
         name = "Features"
-        url = "/en/features/"
+        #url = "/en/features/"
+        url = "/en/#third"
         weight = 2
     [[languages.en.menu.main]]
         name = "Case Studies"
-        url = "/en/cases/"
+        #url = "/en/cases/"
+        url = "/en/#eighth"
         weight = 3
     [[languages.en.menu.main]]
         name = "About"
@@ -82,8 +83,7 @@ defaultContentLanguageInSubdir = true
 
 [languages.zh]
     languageCode = "zh-cn"
-    footer = "Openpitrix Technology © 2018"
-    #footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [码云](https://gitee.com/openpitrix)"
+    footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [码云](https://gitee.com/openpitrix)"
     
     [[languages.zh.menu.main]]
         name = "OpenPitrix"
@@ -91,11 +91,13 @@ defaultContentLanguageInSubdir = true
         weight = 1
     [[languages.zh.menu.main]]
         name = "特性"
-        url = "/zh/features"
+        #url = "/zh/features"
+        url = "/zh/#third"
         weight = 2
     [[languages.zh.menu.main]]
         name = "案例"
-        url = "/zh/cases"
+        #url = "/zh/cases"
+        url = "/zh/#eighth"
         weight = 3
     [[languages.zh.menu.main]]
         name = "关于"

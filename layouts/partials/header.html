@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+    {{ if .IsHome }}
     <link rel="stylesheet" href="{{ "/css/plugin/aos.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "/css/home_clip.css" | relURL }}">
+    {{ end }}
 
     {{ partial "head_custom.html" . }}
   </head>
