@@ -20,17 +20,15 @@ copyright = "Openpitrix Technology © 2018"
         weight = 1
     [[languages.en.menu.main]]
         name = "Features"
-        #url = "/en/features/"
         url = "/en/#third"
         weight = 2
     [[languages.en.menu.main]]
         name = "Case Studies"
-        #url = "/en/cases/"
         url = "/en/#eighth"
         weight = 3
     [[languages.en.menu.main]]
         name = "About"
-        url = "/en/about/"
+        url = "/en/#about"
         weight = 4
 
     [languages.en.index.first]
