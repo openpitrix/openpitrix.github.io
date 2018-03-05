@@ -10,6 +10,8 @@
       'anchor-placement': 'bottom-center',
     });
 
+    new SmoothScroll('a[href*="#"]');
+
     window.onscroll = scrolHandler;
   }
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="69px" viewBox="0 0 69 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>more</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1D324C" offset="0%"></stop>
+            <stop stop-color="#1A2531" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="52.9408" height="52.9408" rx="9.0112"></rect>
+        <filter x="-24.6%" y="-20.8%" width="149.1%" height="149.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0196078431   0 0 0 0 0.00392156863   0 0 0 0 0.0392156863  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-495.000000, -4790.000000)">
+        <g id="more" transform="translate(503.000000, 4796.000000)">
+            <g id="Group-22-Copy">
+                <g id="Rectangle-14">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group-25" transform="translate(14.889600, 18.022400)" fill="#FFFFFF">
+                    <text id="MORE" font-family="Roboto-Medium, Roboto" font-size="7.8848" font-weight="400">
+                        <tspan x="0.999625" y="7">MORE</tspan>
+                    </text>
+                    <path d="M11.6864,16.896 C10.7532597,16.896 9.9968,16.1395403 9.9968,15.2064 C9.9968,14.2732597 10.7532597,13.5168 11.6864,13.5168 C12.6195403,13.5168 13.376,14.2732597 13.376,15.2064 C13.376,16.1395403 12.6195403,16.896 11.6864,16.896 Z M20.9792,16.896 C20.0460597,16.896 19.2896,16.1395403 19.2896,15.2064 C19.2896,14.2732597 20.0460597,13.5168 20.9792,13.5168 C21.9123403,13.5168 22.6688,14.2732597 22.6688,15.2064 C22.6688,16.1395403 21.9123403,16.896 20.9792,16.896 Z M2.3936,16.896 C1.46045969,16.896 0.704,16.1395403 0.704,15.2064 C0.704,14.2732597 1.46045969,13.5168 2.3936,13.5168 C3.32674031,13.5168 4.0832,14.2732597 4.0832,15.2064 C4.0832,16.1395403 3.32674031,16.896 2.3936,16.896 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

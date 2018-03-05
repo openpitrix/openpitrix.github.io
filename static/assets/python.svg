@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="69px" viewBox="0 0 69 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>python</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1D324C" offset="0%"></stop>
+            <stop stop-color="#1A2531" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="52.9408" height="52.9408" rx="9.0112"></rect>
+        <filter x="-24.6%" y="-20.8%" width="149.1%" height="149.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0196078431   0 0 0 0 0.00392156863   0 0 0 0 0.0392156863  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="61.1846805%" y1="95.8692811%" x2="61.1846781%" y2="0.689571929%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.0454030797" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.147531703" offset="26.6477219%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.328549592" offset="46.3907047%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-281.000000, -4717.000000)">
+        <g id="python" transform="translate(289.000000, 4723.000000)">
+            <g id="Rectangle-14">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="Group-20" transform="translate(8.448000, 7.884800)" fill="url(#linearGradient-4)">
+                <path d="M19.1488,9.0112 L19.1488,7.8848 L9.0112,7.8848 L9.0112,4.5056 C9.0112,2.01722583 11.0284258,0 13.5168,0 L22.528,0 C25.0163742,-4.57106919e-16 27.0336,2.01722583 27.0336,4.5056 L27.0336,7.50211419 L27.0336,11.8210698 L27.0336,12.9536 C27.0336,15.4419742 25.0163742,17.4592 22.528,17.4592 L13.5168,17.4592 C10.4063323,17.4592 7.8848,19.9807323 7.8848,23.0912 L7.8848,28.7792402 L6.23576186,28.531943 C2.65157856,27.9944427 -2.77514736e-15,24.9155711 0,21.2913089 L0,20.7426045 L-2.66453526e-15,15.7696 C-3.12164218e-15,12.0370387 3.02583875,9.0112 6.7584,9.0112 L19.1488,9.0112 Z M13.0810003,5.90292327 C14.0141406,5.90292327 14.7706003,5.14646358 14.7706003,4.21332327 C14.7706003,3.28018295 14.0141406,2.52372327 13.0810003,2.52372327 C12.14786,2.52372327 11.3914003,3.28018295 11.3914003,4.21332327 C11.3914003,5.14646358 12.14786,5.90292327 13.0810003,5.90292327 Z" id="Combined-Shape"></path>
+                <path d="M28.7232,16.896 L28.7232,15.7696 L18.5856,15.7696 L18.5856,12.3904 C18.5856,9.90202583 20.6028258,7.8848 23.0912,7.8848 L32.1024,7.8848 C34.5907742,7.8848 36.608,9.90202583 36.608,12.3904 L36.608,15.3869142 L36.608,19.7058698 L36.608,20.8384 C36.608,23.3267742 34.5907742,25.344 32.1024,25.344 L23.0912,25.344 C19.9807323,25.344 17.4592,27.8655323 17.4592,30.976 L17.4592,36.6640402 L15.8101619,36.416743 C12.2259786,35.8792427 9.5744,32.8003711 9.5744,29.1761089 L9.5744,28.6274045 L9.5744,23.6544 C9.5744,19.9218387 12.6002387,16.896 16.3328,16.896 L28.7232,16.896 Z M22.6554003,13.7877233 C23.5885406,13.7877233 24.3450003,13.0312636 24.3450003,12.0981233 C24.3450003,11.164983 23.5885406,10.4085233 22.6554003,10.4085233 C21.72226,10.4085233 20.9658003,11.164983 20.9658003,12.0981233 C20.9658003,13.0312636 21.72226,13.7877233 22.6554003,13.7877233 Z" id="Combined-Shape" transform="translate(23.091200, 22.274420) scale(-1, -1) translate(-23.091200, -22.274420) "></path>
+            </g>
+            <text id="PYTHON" font-family="Roboto-Medium, Roboto" font-size="7.8848" font-weight="400" fill="#FFFFFF">
+                <tspan x="11.264" y="28.9648">PYTHON</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

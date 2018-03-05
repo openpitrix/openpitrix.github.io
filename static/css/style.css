@@ -149,6 +149,7 @@ footer {
 .first {
   height: 720px;
   background-image: linear-gradient(-148deg, #F7F7F9 1%, #F3F3F5 100%);
+  overflow: hidden;
 }
 
 .first .section-content {
