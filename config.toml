@@ -15,15 +15,15 @@ copyright = "Openpitrix Technology © 2018"
     footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [Gitee](https://gitee.com/openpitrix)"
 
     [[languages.en.menu.main]]
-        name = "OpenPitrix"
-        url = "/en/"
+        name = "Documents"
+        url = "/en/#"
         weight = 1
     [[languages.en.menu.main]]
         name = "Features"
         url = "/en/#third"
         weight = 2
     [[languages.en.menu.main]]
-        name = "Case Studies"
+        name = "Use Cases"
         url = "/en/#eighth"
         weight = 3
     [[languages.en.menu.main]]
@@ -74,7 +74,7 @@ copyright = "Openpitrix Technology © 2018"
     [languages.en.index.seventh]
         title = "As the picture show"
     [languages.en.index.eighth]
-        title = "Case Studies"        
+        title = "Use Cases"        
     [languages.en.index.footer]
         title = "About Pitrix itself"
         desc = "Pitrix [‘paitriks]means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications."  
@@ -84,8 +84,8 @@ copyright = "Openpitrix Technology © 2018"
     footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [码云](https://gitee.com/openpitrix)"
     
     [[languages.zh.menu.main]]
-        name = "OpenPitrix"
-        url = "/zh/"
+        name = "文档"
+        url = "/zh/#"
         weight = 1
     [[languages.zh.menu.main]]
         name = "特性"
@@ -145,7 +145,7 @@ copyright = "Openpitrix Technology © 2018"
     [languages.zh.index.seventh]
         title = "As the picture show"
     [languages.zh.index.eighth]
-        title = "Case Studies"        
+        title = "Use Cases"        
     [languages.zh.index.footer]
         title = "About Pitrix itself"
         desc = "Pitrix [‘paitriks]means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications."        

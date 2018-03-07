@@ -30,4 +30,4 @@ Use the microservice architecture to break applications into more manageable pie
 * Reduce Complexity
 Dramatically reducing the complexity of the cloud applications’ development, deployment and operation through the declarative template specifications.
 
-Case Studies
+Use Cases
