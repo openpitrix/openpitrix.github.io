@@ -1,0 +1,282 @@
+.img-sources img {
+  position: absolute;
+  width: 69px;
+  height: 69px;
+}
+
+.img-targets img {
+  position: absolute;
+  width: 104px;
+}
+
+#c1 {
+  stroke-opacity: 0.2;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+#c2 {
+  stroke-opacity: 0.2;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+#c3 {
+  stroke-opacity: 0.2;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+@keyframes fade {
+  0% {
+    stroke-opacity: 0.0;
+  }
+  50% {
+    stroke-opacity: 0.2;
+  }
+  100% {
+    stroke-opacity: 0.0;
+    stroke-width: 26;
+    r: 30;
+  }
+}
+
+.wave-effect {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#layer-2 {
+  opacity: 0.1;
+  animation-name: wave-rings1;
+  animation-duration: 2s;
+}
+
+#layer-3 {
+  opacity: 0.02;
+  animation-name: wave-rings2;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+#layer-4 {
+  opacity: 0;
+  animation-name: wave-rings3;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+#layer-4 {
+  opacity: 0.02;
+}
+
+@keyframes wave-rings1 {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+@keyframes wave-rings2 {
+  0% {
+    opacity: 0.02;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.02;
+  }
+}
+@keyframes wave-rings3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.02;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#java {
+  top: 120px;
+  left: 87px;
+}
+#python {
+  top: 157px;
+  left: 194px;
+}
+#linux {
+  top: 187px;
+  left: 301px;
+}
+#more {
+  top: 230px;
+  left: 408px;
+}
+#docker {
+  top: 276px;
+  left: 301px;
+}
+#cplusplus {
+  top: 313px;
+  left: 194px;
+}
+#php {
+  top: 356px;
+  left: 87px;
+}
+
+#qingcloud {
+  top: 156px;
+  right: 362px;
+}
+#aws {
+  top: 79px;
+  right: 231px;
+}
+#gce {
+  top: 156px;
+  right: 105px;
+}
+#cloudstack {
+  top: 296px;
+  right: 105px;
+}
+#vmware {
+  top: 296px;
+  right: 362px;
+}
+#k8s {
+  top: 374px;
+  right: 231px;
+}
+
+#arrow {
+  position: absolute;
+  top: 255px;
+  left: 744px;
+  width: 184px;
+  height: 14.6px;
+}
+
+.right-dots {
+  position: absolute;
+  top: 113px;
+  right: 132px;
+}
+
+.right-dots .outer-line, .inner-line{
+  fill: #d8d8d8;
+}
+
+.center-pitrix-icon {
+  position: absolute;
+  top: 149px;
+  left: 533px;
+}
+
+.left-dots {
+  position: absolute;
+  top: 156px;
+  left: 160px;
+}
+
+.left-dots circle {
+  fill: #d8d8d8;
+  animation-name: movingDots;
+  animation-duration: 2.4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.l-line-1 {
+  stroke-dasharray: 0.5 215;
+}
+
+.l-line-2 {
+  stroke-dasharray: 0.5 197;
+  animation-delay: .3s;
+}
+
+.l-line-3 {
+  stroke-dasharray: 0.5 125;
+  animation-delay: .6s;
+}
+
+.l-line-4 {
+  stroke-dasharray: 0.5 107;
+  animation-delay: .9s;
+}
+
+.l-line-5{
+  stroke-dasharray: 0.5 41;
+  animation-delay: 1.2s;
+}
+
+.l-line-6{
+  stroke-dasharray: 0.5 23;
+  animation-delay: 1.5s;
+}
+
+.l-line-7{
+  stroke-dasharray: 0.5 24;
+  animation-delay: 1.8s;
+}
+
+.l-line-8{
+  stroke-dasharray: 0.5 24;
+  animation-delay: 2.1s;
+}
+
+.l-line-9{
+  stroke-dasharray: 0.5 24;
+  animation-delay: 2.4s;
+}
+
+@keyframes movingDots {
+  0% {
+    fill: #d8d8d8;
+  }
+  25% {
+    fill: #7749AC;
+  }
+  50% {
+    fill: #d8d8d8;
+  }
+  100% {
+    fill: #d8d8d8;
+  }
+}
+
+@keyframes dotWave {
+  0% {
+    fill: #d8d8d8;
+  }
+  50% {
+    fill: #baa0d9;
+  }
+  100% {
+    fill: #d8d8d8;
+  }
+}
+
+.right-dots circle {
+  animation-name: dotWave;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.right-dots .outer-line {
+  animation-delay: .5s;
+}
+

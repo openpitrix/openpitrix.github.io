@@ -4,17 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+    {{ if .IsHome }}
+    <link rel="stylesheet" href="{{ "/css/plugin/aos.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
-    <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "/css/home_clip.css" | relURL }}">
+    {{ end }}
+
     {{ partial "head_custom.html" . }}
   </head>
 
   <body>
-    <nav>
-    <ul class="menu">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
-    <hr/>
+    <nav class="header">
+      <div class="container">
+        <h1 class="logo"><a href="#"><img src="/assets/logo.svg" alt="" height="36"></a></h1>
+        <ul class="menu">
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
     </nav>

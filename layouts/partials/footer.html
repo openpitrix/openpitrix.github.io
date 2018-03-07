@@ -1,9 +1,24 @@
-  <footer>
-  {{ partial "foot_custom.html" . }}
-  {{ with .Site.Params.footer }}
-  <hr/>
-  {{ . | markdownify }}
-  {{ end }}
-  </footer>
-  </body>
+<footer>
+  <section id="about">
+    {{ with .Site.Params.Index.Footer }}
+      <div class="footer-about">
+        <h2>{{ .title }}</h2>
+        <p>{{ .desc }}</p>
+      </div>
+    {{ end }}
+  </section>
+
+  <div class="footer-business">
+    <div class="container">
+      <img src="/assets/logo2.svg" alt="">
+      <span class="icp">{{ .Site.Copyright }}</span>
+    </div>
+  </div>
+
+</footer>
+<script src="/js/lib/jquery-3.3.1.min.js"></script>
+<script src="/js/plugin/aos.js"></script>
+<script src="/js/plugin/smooth-scroll.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
 </html>
