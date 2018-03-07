@@ -206,9 +206,9 @@ footer {
 }
 .section-img14 {
   position: absolute;
-  width: 147px;
+  width: 242px;
   top: 680px;
-  right: 0;
+  right: -100px;
   z-index: 1;
 }
 
