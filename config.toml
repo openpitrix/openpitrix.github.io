@@ -70,7 +70,7 @@ copyright = "Openpitrix Technology © 2018"
         desc = "The technology is evolving, application is same, but old sytle not disappear. all kinds of application coexist in cloud computing era. OpenPitrix adopted distributed configurtion management, abstract meta configuration infomation, compatible with all(almost) application."
     [languages.en.index.sixth]
         title = "Adopted microservice for openpitrix itself"
-        desc = "Openpitrix adopted microservice, every funcation have indepent service, architecture high level."
+        desc = "Openpitrix adopted microservice, every function have indepent service, architecture high level."
     [languages.en.index.seventh]
         title = "As the picture show"
     [languages.en.index.eighth]
@@ -141,7 +141,7 @@ copyright = "Openpitrix Technology © 2018"
         desc = "The technology is evolving, application is same, but old sytle not disappear. all kinds of application coexist in cloud computing era. OpenPitrix adopted distributed configurtion management, abstract meta configuration infomation, compatible with all(almost) application."
     [languages.zh.index.sixth]
         title = "Adopted microservice for openpitrix itself"
-        desc = "Openpitrix adopted microservice, every funcation have indepent service, architecture high level."
+        desc = "Openpitrix adopted microservice, every function have indepent service, architecture high level."
     [languages.zh.index.seventh]
         title = "As the picture show"
     [languages.zh.index.eighth]
