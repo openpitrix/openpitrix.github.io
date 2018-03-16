@@ -1,3 +1,7 @@
+# Copyright 2017 The OpenPitrix Authors. All rights reserved.
+# Use of this source code is governed by a Apache license
+# that can be found in the LICENSE file.
+
 0.0.0.0
 browse
 log stdout
@@ -5,8 +9,6 @@ errors stdout
 
 root /srv/openpitrix.github.io/public
 on startup hugo
+
 gopkg /openpitrix https://github.com/openpitrix/openpitrix
-
-
-
-
+gopkg /libconfd https://github.com/openpitrix/libconfd
