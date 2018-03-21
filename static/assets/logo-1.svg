@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="24px" viewBox="0 0 22 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="移动端适配" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-16.000000, -82.000000)">
+        <g id="logo-1" transform="translate(16.000000, 82.000000)" fill="#7749AC">
+            <polygon id="Rectangle-2-Copy-5" transform="translate(9.701013, 3.055880) scale(1, -1) translate(-9.701013, -3.055880) " points="7.97026549 -3.63797881e-12 11.4317596 1.67750907 11.4317596 6.11175984 7.97026549 4.43425076"></polygon>
+            <path d="M5.41577472,11.6568808 L5.41577472,23.2710057 L0.981523955,21.0621823 L0.981523955,9.13368671 L1,9.14289014 L1,5.07278287 L11.419469,10.1455657 L11.419469,14.5798165 L5.41577472,11.6568808 Z" id="Combined-Shape" opacity="0.75"></path>
+            <polygon id="Rectangle-2-Copy-3" transform="translate(19.593363, 17.213355) scale(1, -1) rotate(-270.000000) translate(-19.593363, -17.213355) " points="15.757509 14.99623 25.63804 14.99623 23.3573582 19.4304808 13.5486856 19.4304808"></polygon>
+            <polygon id="Rectangle-2-Copy-4" opacity="0.75" points="11.419469 0 21.8389381 5.07278287 21.8389381 9.50703364 11.419469 4.43425076"></polygon>
+            <polygon id="Rectangle-2-Copy" transform="translate(16.629204, 9.826300) scale(1, -1) translate(-16.629204, -9.826300) " points="11.419469 5.07278287 21.8389381 10.1455657 21.8389381 14.5798165 11.419469 9.50703364"></polygon>
+        </g>
+    </g>
+</svg>

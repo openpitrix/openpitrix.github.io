@@ -1,6 +1,8 @@
 @import "../fonts/roboto/roboto.css";
 @import "fonts.css";
 @import "animate.css";
+@import "home_clip.css";
+@import "mobile.css";
 
 body {
   margin: auto;
@@ -10,6 +12,11 @@ body {
 }
 
 /* common */
+.main {
+  position: relative;
+  overflow: hidden;
+}
+
 .container {
   position: relative;
   margin: 0 auto;
@@ -76,9 +83,11 @@ body {
   background-color: #fff;
 }
 
+.menu-wrapper {
+  float: right;
+}
 .menu {
   margin: 0;
-  float: right;
   list-style: none;
 }
 .menu li {
@@ -94,12 +103,11 @@ body {
   text-decoration: none;
   transition: opacity .2s ease-in-out;
 }
-
 .menu li a:hover {
-  opacity: 0.8
+  opacity: 0.8;
 }
 .menu li a:active {
-  opacity: 1
+  opacity: 1;
 }
 
 /* footer */
@@ -620,7 +628,7 @@ footer {
 }
 
 .eighth .section-title {
-  color: #300E56;
+  color: #6626AF;
   text-align: center;
 }
 
