@@ -280,3 +280,84 @@
   animation-delay: .5s;
 }
 
+/* common */
+.pc-show {
+  display: block;
+}
+.mobile-show {
+  display: none;
+}
+
+/* pc narrow screen */
+@media (max-width: 1200px) {
+  .section-process .center-pitrix-icon {
+    left: 550px;
+  }
+}
+
+/* ipad pro vertical screen & mobile */ 
+@media (max-width: 1024px) {
+  .section-process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-sources img {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+  .img-sources #java {
+    top: 0.3rem;
+    left: 0.2rem;
+  }
+  .img-sources #php {
+    top: auto;
+    bottom: 0.3rem;
+    left: 0.2rem;
+  }
+  .img-sources #more {
+    top: 0.77rem;
+    left: 0.65rem;
+  }
+  .left-dots {
+    top: 0.66rem;
+    left: 0.55rem;
+  }
+  .img-targets img {
+    width: 0.6rem;
+    right: 0.15rem !important;
+  }
+  .img-targets #aws {
+    top: 0.1rem;
+  }
+  .img-targets #qingcloud {
+    top: 0.73rem;
+  }
+  .img-targets #vmware {
+    top: auto;
+    bottom: 0.1rem;
+  }
+  .center-pitrix-icon {
+    position: static;
+    width: auto !important;
+    height: auto !important;
+    margin: 0.05rem 0 0 0.1rem;
+    transform: scale(1);
+  }
+  .right-dots {
+    top: 0.4rem;
+    right: 0.68rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .center-pitrix-icon {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 414px) {
+  .center-pitrix-icon {
+    transform: scale(0.5);
+  }
+}
