@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="613px" height="514px" viewBox="0 0 613 514" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>pop cloud</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="34.5340205%" y1="94.0315341%" x2="81.5144891%" y2="21.0744041%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#250F49" stop-opacity="0.537165987" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#611989" offset="0%"></stop>
+            <stop stop-color="#46146C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.45786824%" y1="3.4239676%" x2="123.711424%" y2="115.679506%" id="linearGradient-3">
+            <stop stop-color="#4D8BFF" offset="0%"></stop>
+            <stop stop-color="#FF6985" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pop-cloud" transform="translate(-41.000000, -97.000000)">
+            <polygon id="Rectangle-51" fill="url(#linearGradient-1)" points="92.1817978 557.5232 153.75646 564.358549 70.1332341 610.672159 3.43324759 597.113266"></polygon>
+            <g id="support-cloud">
+                <g id="Group-60">
+                    <path d="M46.8956499,246.934791 C153.12645,175.64306 239.984465,144.897948 302.407574,144.36031 C360.599446,143.859114 390.282522,168.084051 405.668688,207.416991 C406.968564,210.739972 406.523549,221.207726 404.333643,238.820255 C495.424434,206.125865 560.480098,221.483113 599.500634,284.892 C644.487818,357.996769 630.292426,425.035775 556.914457,486.009018 C587.118835,473.963451 609.837735,479.534357 625.071157,502.721736 C643.662512,531.020356 621.022421,558.642666 557.150883,585.588665 L45.3201489,286.977985 C46.2270675,260.409585 46.7522346,247.061854 46.8956499,246.934791 Z" id="Rectangle-30" fill="url(#linearGradient-2)" transform="translate(338.339235, 364.970673) rotate(-60.000000) translate(-338.339235, -364.970673) "></path>
+                    <path d="M58.6940806,279.128156 C179.166474,194.477811 272.779598,152.117678 339.533454,152.047756 C387.202543,151.997825 410.662521,170.602405 421.809681,205.42718 C426.65031,220.54976 423.379627,237.717031 411.997633,256.928994 C517.951288,211.570764 588.763604,223.920978 624.434582,293.979636 C660.10556,364.038294 641.699339,428.676153 569.215919,487.893214 C605.102287,475.750146 629.89473,481.535207 643.593247,505.248399 C654.390129,533.879435 630.563488,563.266691 572.113324,593.410167 L58.6940806,279.128156 Z" id="Rectangle-30" fill="url(#linearGradient-3)" transform="translate(352.406237, 372.728912) rotate(-60.000000) translate(-352.406237, -372.728912) "></path>
+                </g>
+                <path d="" id="Path-11" stroke="#979797"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -542,7 +542,7 @@ footer {
 /* section.seventh */
 .seventh {
   height: 730px;
-	background-image: linear-gradient(to left, #7549AE, #854fb9 32%, #464796);
+	background-color: #6626AF;
 }
 
 .seventh .section-content {
@@ -564,7 +564,6 @@ footer {
   left: 50%;
   top: 230px;
   z-index: 2;
-  /*max-width: 1266px;*/
   width: 1266px;
   height: 526px;
   border-radius: 4px;
@@ -581,18 +580,17 @@ footer {
 .section-img70 {
   position: absolute;
   right: 0;
-  top: -334px;
+  top: -349px;
   width: 347px;
-  height: 336px;
+  height: 350px;
 }
 
 .section-img71 {
   position: absolute;
-  left: 50%;
-  top: -30px;
-  width: 1440px;
-  height: 759px;
-  transform: translate(-50%, 0);
+  left: 110px;
+  top: -29px;
+  width: 295px;
+  height: 92px;
 }
 
 .section-img72 {
