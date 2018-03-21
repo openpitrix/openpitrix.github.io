@@ -27,11 +27,8 @@
 
 /* ipad pro vertical screen & mobile */ 
 @media (max-width: 1024px) {
-  .main .container {
-    position: static;
-  }
   .main section {
-    position: relative;
+    height: auto;
   }
   .main section .section-content {
     width: auto !important;
@@ -261,10 +258,11 @@
 
   /* section.first */
   .main .first {
-    height: auto;
+    overflow: visible;
+  }
+  .main .first .container {
     min-height: 1.8rem;
     padding: 0.88rem 0 2.6rem;
-    overflow: visible;
   }
   .main .first .section-content {
     top: 0.88rem;
@@ -275,6 +273,7 @@
     line-height: 1.43;
   }
   .main .first .section-link {
+    font-size: 0.14rem;
     text-align: center;
     margin-top: 0.12rem;
   }
@@ -305,8 +304,7 @@
   }
   
   /* section.second */
-  .main .second {
-    height: auto;
+  .main .second .container {
     min-height: 4.88rem;
     padding: 1.65rem 0 4.52rem;
   }
@@ -364,8 +362,7 @@
   }
 
   /* section.third */
-  .main .third {
-    height: auto;
+  .main .third .container{
     min-height: 2.76rem;
     padding: 0.8rem 0 4.48rem;
   }
@@ -407,8 +404,7 @@
   }
 
   /* section.fourth */
-  .main .fourth {
-    height: auto;
+  .main .fourth .container{
     min-height: 3.2rem;
     padding: 0.8rem 0 5.62rem;
   }
@@ -439,8 +435,7 @@
   }
 
   /* section.fifth */
-  .main .fifth {
-    height: auto;
+  .main .fifth .container{
     min-height: 3.04rem;
     padding: 0.2rem 0 5.2rem;
   }
@@ -471,8 +466,7 @@
   }
 
   /* section.sixth */
-  .main .sixth {
-    height: auto;
+  .main .sixth .container{
     min-height: 1.52rem;
     padding: 0.8rem 0 4rem;
   }
@@ -540,7 +534,7 @@
   .sixth .section-img69 {
     top: auto;
     left: 1.45rem;
-    bottom: -0.2rem;
+    bottom: -0.25rem;
     width: 0.72rem;
     height: 0.56rem;
   }
@@ -582,8 +576,7 @@
   }
 
   /* section.seventh */
-  .main .seventh {
-    height: auto;
+  .main .seventh .container{
     min-height: 2.8rem;
     padding: 0;
   }
@@ -603,9 +596,9 @@
   }
   .seventh .section-img71 {
     top: -0.15rem;
-    left: 0;
-    width: 6.5rem;
-    height: 2.85rem;
+    left: 1.15rem;
+    width: 1.43rem;
+    height: 0.46rem;
   }
   .seventh .section-img72 {
     top: 0.1rem;
@@ -615,8 +608,7 @@
   }
 
   /* section.eighth */
-  .main .eighth {
-    height: auto;
+  .main .eighth .container{
     min-height: 2.34rem;
     padding: 0;
   }
