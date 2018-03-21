@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="417px" height="334px" viewBox="0 0 417 334" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>光圈</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="54.8774718%" y1="67.3744939%" x2="44.1122412%" y2="46.0556538%" id="linearGradient-1">
+            <stop stop-color="#EEEEEE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#CBB0D9" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="60.8562344%" fx="50%" fy="60.8562344%" r="46.4870088%" gradientTransform="translate(0.500000,0.608562),scale(0.379562,1.000000),rotate(-93.963052),scale(1.000000,1.611128),translate(-0.500000,-0.608562)" id="radialGradient-2">
+            <stop stop-color="#DFD3ED" stop-opacity="0.899060236" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.955757473" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="71.0771239%" y1="0%" x2="57.2519996%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#8966AA" offset="0%"></stop>
+            <stop stop-color="#513571" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-133.000000, -3729.000000)">
+        <g id="光圈" transform="translate(97.000000, 3685.000000)">
+            <path d="M40,267.531632 L88.2291571,377.28793 C306.31417,283.38377 427.794188,202.793118 452.669212,135.515972 C452.44326,134.552537 419.964196,108.414776 355.232019,57.1026879 C361.407515,68.5047996 364.495263,78.1717883 364.495263,86.1036538 C364.495263,98.0014522 324.676303,166.947574 295.813257,181.556799 C266.95021,196.166024 103.98036,331.121821 44.5996484,270.238893 C44.5100812,270.390517 42.976865,269.488097 40,267.531632 Z" id="Path-14" fill="url(#linearGradient-1)" opacity="0.200000003"></path>
+            <g id="Group-46">
+                <ellipse id="Oval-15" fill="url(#radialGradient-2)" transform="translate(202.313622, 168.000000) rotate(-33.000000) translate(-202.313622, -168.000000) " cx="202.313622" cy="168" rx="186.83239" ry="70.9144837"></ellipse>
+                <path d="M202.247955,242.256594 C96.9954101,242.256594 10.8709261,210.612404 10.8709261,168.180781 C10.8709261,125.749158 88.8030868,92.8373355 201.409284,91.8829877 C314.015482,90.92864 392.535706,125.749158 392.535706,168.180781 C392.535706,210.612404 307.5005,242.256594 202.247955,242.256594 Z M201.703316,235.095265 C302.82013,235.095265 384.535706,204.079134 384.535706,168.180781 C382.670477,129.726438 309.007975,103.782309 200.069399,103.782309 C91.1308222,103.782309 18.8709261,132.282428 18.8709261,168.180781 C18.8709261,204.079134 100.586501,235.095265 201.703316,235.095265 Z" id="Oval-15" fill="url(#linearGradient-3)" fill-rule="nonzero" transform="translate(201.703316, 167.060210) rotate(-33.000000) translate(-201.703316, -167.060210) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="167px" viewBox="0 0 132 167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 38</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="96.7313794%" y1="-10.5488546%" x2="34.6538996%" y2="104.987112%" id="linearGradient-1">
+            <stop stop-color="#DED8E4" offset="0%"></stop>
+            <stop stop-color="#B9B0C5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="92.1537634%" y2="-87.0951852%" id="linearGradient-2">
+            <stop stop-color="#EEECEF" offset="0%"></stop>
+            <stop stop-color="#FAFAFA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.7845671%" y1="138.434248%" x2="62.5172968%" y2="-68.5905868%" id="linearGradient-3">
+            <stop stop-color="#3D1A5A" offset="0%"></stop>
+            <stop stop-color="#F1376F" offset="100%"></stop>
+        </linearGradient>
+        <path d="M75.5898867,124.814803 L67.8789492,124.814803 L66.2656679,129.449569 L62.6699648,129.449569 L70.1894961,109.543319 L73.2930117,109.543319 L80.8262148,129.449569 L77.2168398,129.449569 L75.5898867,124.814803 Z M68.8496523,122.025741 L74.6191836,122.025741 L71.7344179,113.767928 L68.8496523,122.025741 Z M86.5410586,122.053085 L86.5410586,129.449569 L83.0820742,129.449569 L83.0820742,109.543319 L90.6973086,109.543319 C92.921278,109.543319 94.6872109,110.122089 95.9951601,111.279647 C97.3031094,112.437205 97.9570742,113.96844 97.9570742,115.873397 C97.9570742,117.823928 97.3167811,119.341491 96.0361757,120.426131 C94.7555704,121.510772 92.962294,122.053085 90.6562929,122.053085 L86.5410586,122.053085 Z M86.5410586,119.277694 L90.6973086,119.277694 C91.9277835,119.277694 92.8665761,118.988309 93.5137148,118.40953 C94.1608535,117.830751 94.4844179,116.994496 94.4844179,115.900741 C94.4844179,114.825215 94.1562962,113.966174 93.5000429,113.323592 C92.8437896,112.681011 91.9414549,112.350611 90.7930117,112.332381 L86.5410586,112.332381 L86.5410586,119.277694 Z M104.437543,122.053085 L104.437543,129.449569 L100.978559,129.449569 L100.978559,109.543319 L108.593793,109.543319 C110.817762,109.543319 112.583695,110.122089 113.891644,111.279647 C115.199594,112.437205 115.853559,113.96844 115.853559,115.873397 C115.853559,117.823928 115.213265,119.341491 113.93266,120.426131 C112.652055,121.510772 110.858778,122.053085 108.552777,122.053085 L104.437543,122.053085 Z M104.437543,119.277694 L108.593793,119.277694 C109.824268,119.277694 110.763061,118.988309 111.410199,118.40953 C112.057338,117.830751 112.380902,116.994496 112.380902,115.900741 C112.380902,114.825215 112.052781,113.966174 111.396527,113.323592 C110.740274,112.681011 109.837939,112.350611 108.689496,112.332381 L104.437543,112.332381 L104.437543,119.277694 Z" id="path-4"></path>
+        <filter x="-0.9%" y="-2.5%" width="101.9%" height="105.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.176699523   0 0 0 0 0.05497985   0 0 0 0 0.312739158  0 0 0 0.82 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-434.000000, -4032.000000)">
+        <g id="Group-38" transform="translate(411.000000, 4018.000000)">
+            <g id="Group-37" transform="translate(83.380502, 95.062407) rotate(5.000000) translate(-83.380502, -95.062407) translate(7.380502, 7.062407)">
+                <rect id="Rectangle-56" fill="url(#linearGradient-1)" transform="translate(83.500000, 110.000000) rotate(-19.000000) translate(-83.500000, -110.000000) " x="29" y="59" width="109" height="102"></rect>
+                <polygon id="Rectangle-56-Copy" fill="url(#linearGradient-2)" transform="translate(59.500000, 40.000000) rotate(-19.000000) translate(-59.500000, -40.000000) " points="15.1614336 19.0137353 98.7678325 17 114 63 5 63"></polygon>
+            </g>
+            <g id="APP" transform="translate(89.261762, 119.496444) rotate(-14.000000) translate(-89.261762, -119.496444) ">
+                <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+            </g>
+        </g>
+    </g>
+</svg>

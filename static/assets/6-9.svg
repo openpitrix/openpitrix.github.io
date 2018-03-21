@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="113px" viewBox="0 0 144 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 41</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="27.8672084%" y1="114.229359%" x2="76.2687763%" y2="-12.9875801%" id="linearGradient-1">
+            <stop stop-color="#817290" offset="0%"></stop>
+            <stop stop-color="#B1A7BD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="-11.0786234%" x2="65.1736263%" y2="93.5794854%" id="linearGradient-2">
+            <stop stop-color="#DED8E4" offset="0%"></stop>
+            <stop stop-color="#B9B0C5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-334.000000, -4266.000000)">
+        <g id="Group-41" transform="translate(406.075234, 4320.000000) rotate(1.000000) translate(-406.075234, -4320.000000) translate(333.575234, 4260.500000)">
+            <polygon id="Rectangle-57" fill="url(#linearGradient-1)" transform="translate(38.411109, 61.059283) rotate(-5.000000) translate(-38.411109, -61.059283) " points="4.45762105 15.3092828 72.3645978 8.53150501 72.3645978 106.809283 4.45762105 113.587061"></polygon>
+            <polygon id="Rectangle-57" fill="url(#linearGradient-2)" transform="translate(106.057183, 55.757656) scale(-1, 1) rotate(4.000000) translate(-106.057183, -55.757656) " points="72.9816941 9.98534953 140.888671 3.20757175 139.132673 101.529962 71.225696 108.30774"></polygon>
+            <polygon id="Rectangle-58" fill="#A1A6AB" points="76.2585596 103.570463 144.429719 105.719721 76.9628599 118.300521 9.23088957 116.337415"></polygon>
+        </g>
+    </g>
+</svg>

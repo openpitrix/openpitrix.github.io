@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="77px" viewBox="0 0 86 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 63</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="27.969507%" y1="88.147346%" x2="80.2789187%" y2="-16.6882286%" id="linearGradient-1">
+            <stop stop-color="#EEECEF" offset="0%"></stop>
+            <stop stop-color="#FAFAFA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#5D208F" stop-opacity="0.617300725" offset="0%"></stop>
+            <stop stop-color="#300E56" stop-opacity="0.690217391" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-142.000000, -3638.000000)">
+        <g id="Group-63" transform="translate(112.000000, 3603.000000)">
+            <g id="Group-35-Copy" transform="translate(73.054497, 71.985153) rotate(-27.000000) translate(-73.054497, -71.985153) translate(19.054497, 18.985153)">
+                <polygon id="Rectangle-54-Copy" fill="#C2BCC9" transform="translate(42.410567, 34.733381) rotate(-319.000000) translate(-42.410567, -34.733381) " points="30.4719313 17.8387275 59.7760996 4.57670411 52.2914217 53.665969 25.0450337 64.8900573"></polygon>
+                <polygon id="Rectangle-54-Copy" fill="#A499B0" transform="translate(33.713642, 71.020735) scale(-1, 1) rotate(-319.000000) translate(-33.713642, -71.020735) " points="20.7601164 61.8541589 35.7393751 36.0129237 46.6671669 77.3591233 31.2323037 106.028547"></polygon>
+                <polygon id="Rectangle-54" fill="url(#linearGradient-1)" transform="translate(66.906744, 59.808919) rotate(-319.000000) translate(-66.906744, -59.808919) " points="49.2924434 26.8901287 92.0822791 45.04898 84.2071044 92.7277083 41.7312095 76.0319413"></polygon>
+            </g>
+            <path d="M90.9158356,66.1388249 L91.0110879,75.1669266 C91.0110879,76.6773508 90.5276943,77.8736279 89.5608926,78.7557938 C88.5940909,79.6379596 87.3066689,80.079036 85.6985879,80.079036 C84.0709756,80.079036 82.7786709,79.64447 81.8216348,78.775325 C80.8645988,77.9061801 80.0114814,75.7729536 80.0114814,74.2299771 L80.0114814,64.7377896 L82.3771665,65.2116411 L82.4724189,74.2495084 C82.4724189,75.2000339 83.0879085,76.853122 83.5696817,77.3544266 C84.0514549,77.8557312 84.7610833,78.1063797 85.6985879,78.1063797 C87.5996391,78.1063797 88.5501504,77.1037856 88.5501504,75.0985672 L88.5501504,65.6649735 L90.9158356,66.1388249 Z M95.8702884,81.2660818 L93.4467059,80.6899945 L93.4467059,66.4712445 L95.8702884,67.0473318 L95.8702884,81.2660818 Z" id="UI" fill="url(#linearGradient-2)" transform="translate(87.940885, 73.001936) rotate(22.000000) translate(-87.940885, -73.001936) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="758px" height="743px" viewBox="0 0 758 743" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="55.5220902%" y1="94.3780016%" x2="37.9528458%" y2="1.37115744%" id="linearGradient-1">
+            <stop stop-color="#FAF5F5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D489F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="55.5220902%" y1="94.3780016%" x2="37.9528458%" y2="1.37115744%" id="linearGradient-2">
+            <stop stop-color="#FAF5F5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F2D6BF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9">
+            <circle id="Oval-14" fill="url(#linearGradient-1)" opacity="0.200000003" cx="401" cy="403" r="313"></circle>
+            <circle id="Oval-14" fill="url(#linearGradient-2)" opacity="0.5" cx="379" cy="379" r="379"></circle>
+        </g>
+    </g>
+</svg>
