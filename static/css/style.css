@@ -67,8 +67,8 @@ body {
 .logo {
   display: inline-block;
   vertical-align: middle;
-  height: 36px;
-  margin: 24px 0;
+  height: 23px;
+  margin: 30px 0;
 }
 
 .header {
@@ -142,7 +142,7 @@ footer {
 
 .footer-business img {
   float: left;
-  margin-top: 16px;
+  margin-top: 22px;
 }
 
 .footer-business .icp {
