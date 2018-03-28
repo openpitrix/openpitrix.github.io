@@ -25,15 +25,7 @@
       {{ with .Site.Params.Index.Second }}
         <div class="section-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700" data-aos-offset="300" data-aos-anchor="#second">
           <h3 class="section-title">{{ .title }}</h3>
-          <div class="section-desc">
-            {{ .desc_begin }}
-            <ul>
-              {{ range .architecture }}
-                <li>{{ .name }}</li>
-              {{ end }}
-            </ul>
-            {{ .desc_end }}
-          </div>
+          <div class="section-desc">{{ .desc }}</div>
         </div>
       {{ end }}
 
@@ -157,7 +149,13 @@
         <div class="section-content">
           <h3 class="section-title">{{ .title }}</h3>
           <div class="section-case">
-            
+            <div class="section-desc">
+              <ul>
+                {{ range .architecture }}
+                  <li>{{ .name }}</li>
+                {{ end }}
+              </ul>
+            </div>
           </div>
         </div>
       {{ end }}
