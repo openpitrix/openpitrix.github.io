@@ -1,19 +1,18 @@
 ---
-title: Home
+title: An open-source system to manage applications on multiple clouds
 ---
 
 [<img src="/logo-small.png" style="max-width:15%;min-width:40px;float:right;" alt="OpenPitrix" />](https://openpitrix.io)
 
 # OpenPitrix
 
-OpenPitrix is an Open-source framework for package, deployment, orchestration and management enterprise applications into multiple cloud environments including QingCloud, AWS, OpenStack, Kubernetes and etc.
+OpenPitrix is an open-source system to package, deploy and manage different types of applications including traditional application, microservice application and serverless applications into multiple cloud environment such as AWS, Azure, Kubernetes, QingCloud, OpenStack, VMWare etc.
 
 Pitrix [‘paitriks] means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications.
 
+## Why OpenPitrix?
 
-##Why OpenPitrix?
-
-In the Cloud era, all enterprise applications should be run on different cloud computing platforms, no matter the traditional or the microservice applications. OpenPitrix is born for resolving this problem.
+Nowadays cloud computing is widely adopted in enterprise organizations. Furthermore, most of enterprises have multi-cloud strategy for certain reasons. The multiple clouds are usually from different providers, resulting shadow IT becomes a reality again in cloud era. Therefore, how to manage and automate multi-cloud environment becomes an emerging requirement, especially for application management. Moreover, it is challenging to create one stop store that manages different types of applications, including traditional application (or called monolithic application), microservice application, and serverless application which is increasingly hot recently. OpenPitrix is such a platform to solve these problems.
 
 ## OpenPitrix Features
 

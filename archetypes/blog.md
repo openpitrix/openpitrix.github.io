@@ -3,7 +3,7 @@ title: ""
 author: ""
 date: {{ .Date }} 
 categories:
-  - 日志
+  - Log
   - OpenPitrix
 tags:
   - Markdown
