@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>cmp-g</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-158.000000, -5764.000000)">
+        <g id="cmp-g" transform="translate(158.000000, 5764.000000)">
+            <circle id="Oval" fill="#4AE4B1" cx="29" cy="29" r="29"></circle>
+            <g id="Icon-CMP" transform="translate(9.000000, 8.000000)">
+                <rect id="Bound" x="0" y="0" width="40" height="40"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="11.6666667" y="3.33333333" width="25" height="25"></rect>
+                <polygon id="Shape" fill="#FFFFFF" points="3.33333333 3.33333333 36.6666667 36.6666667 3.33333333 36.6666667"></polygon>
+                <path d="M28.3333333,28.3333333 L11.6666667,28.3333333 L11.6666667,11.6666667 L28.3333333,28.3333333 Z" id="Combined-Shape" fill="#D9F8ED"></path>
+            </g>
+        </g>
+    </g>
+</svg>

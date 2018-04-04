@@ -4,8 +4,8 @@
     <title>第六屏波浪</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="openpitrix官网页面-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1106.000000, -3985.000000)">
-        <g id="第六屏波浪" transform="translate(1106.000000, 3983.000000)">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1106.000000, -3985.000000)">
+        <g transform="translate(1106.000000, 3983.000000)">
             <path d="M0.142224339,337 C142.981788,326.662438 223.068246,297.060322 240.4016,248.193652 C265.433962,177.621725 308.615464,32.0371386 335.550986,0.530861006 C337.438983,-1.6775148 358.434072,98.43948 340.96368,337 L0.142224339,337 Z" id="Combined-Shape" fill="#A267BF" opacity="0.5"></path>
             <path d="M124.253905,337 C172.719181,331.824469 205.145075,306.138051 221.531586,259.940747 C248.318547,184.422207 274.765184,168.808555 300.970773,153.201207 C318.441165,142.796309 331.805298,99.0625733 341.063172,22 L341.063172,337 L124.253905,337 Z" id="Combined-Shape" fill="#6626AF"></path>
         </g>

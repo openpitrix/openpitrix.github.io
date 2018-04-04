@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud-p</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-158.000000, -5526.000000)">
+        <g id="cloud-p" transform="translate(158.000000, 5526.000000)">
+            <circle id="Oval" fill="#6626AF" cx="29" cy="29" r="29"></circle>
+            <g id="stable" transform="translate(9.000000, 8.000000)">
+                <rect id="bound" x="0" y="0" width="40" height="40"></rect>
+                <polygon id="Triangle" fill="#FFFFFF" points="24 5 40 34 8 34"></polygon>
+                <polygon id="Triangle" fill="#FFFFFF" opacity="0.800000012" points="11 14 22 34 0 34"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

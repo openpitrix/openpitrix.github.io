@@ -19,19 +19,18 @@
       <div class="container">
         <h1 class="logo">
           <a href="#">
-            <img class="pc-show" src="/assets/logo-new.svg" alt="openPitrix" height="23">
-            <span class="logo1 mobile-show" style="background-image: url('/assets/logo-1.svg');"></span>
-            <span class="logo2" style="background-image: url('/assets/logo-2.svg');"></span>
+            <img class="logo1" src="/assets/logo-new.svg" alt="openPitrix" />
+            <img class="mobile-show logo2" src="/assets/logo2-new.svg" alt="openPitrix" />
           </a>
         </h1>
         <button class="menu-btn mobile-show"></button>
         <div class="menu-wrapper">
           <ul class="menu">
             {{ range .Site.Menus.main }}
-            <li>
-              <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-              <img class="mobile-show" src="/assets/arrow-right.svg" alt="arrow-right">
-            </li>
+              <li>
+                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                <img class="mobile-show" src="/assets/arrow-right.svg" alt="arrow-right">
+              </li>
             {{ end }}
           </ul>
         </div>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>kbs-b</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-158.000000, -5978.000000)">
+        <g id="kbs-b" transform="translate(158.000000, 5978.000000)">
+            <circle id="Oval" fill="#73BBF0" cx="29" cy="29" r="29"></circle>
+            <g id="five" transform="translate(9.000000, 8.000000)">
+                <rect id="Rectangle-60" x="0" y="0" width="40" height="40"></rect>
+                <polygon id="Polygon-4" fill="#FFFFFF" points="20.0297838 1.16956522 36.7704314 30.1652174 3.28913618 30.1652174"></polygon>
+                <polygon id="Polygon-4" fill="#FFFFFF" transform="translate(20.029784, 25.332609) rotate(-180.000000) translate(-20.029784, -25.332609) " points="20.0297838 10.8347826 36.7704314 39.8304348 3.28913618 39.8304348"></polygon>
+                <path d="M25.6099996,10.8347826 L31.1902155,20.5 L25.6099996,30.1652174 L14.4495679,30.1652174 L8.86935204,20.5 L14.4495679,10.8347826 L25.6099996,10.8347826 Z" id="Combined-Shape" fill="#73BBF0" opacity="0.300000012"></path>
+            </g>
+        </g>
+    </g>
+</svg>

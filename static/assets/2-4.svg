@@ -9,7 +9,7 @@
             <stop stop-color="#FF6985" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-508.000000, -988.000000)">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-508.000000, -988.000000)">
         <path d="M537.869336,994.816962 C539.180052,995.013442 540.588856,994.344231 540.927202,992.8562 C541.265549,991.368168 540.408624,989.828558 538.686957,989.297118 C538.293799,989.175759 533.24537,987.63954 527.700233,988.078718 C517.680392,988.872296 508,996.124694 508,996.998328 C508.977395,997.098842 517.129598,992.634219 527.078107,992.634219 C532.887572,992.634219 536.751282,994.649362 537.869336,994.816962 Z" id="Oval-5-Copy" fill="url(#linearGradient-1)" transform="translate(524.500000, 992.500000) rotate(1.000000) translate(-524.500000, -992.500000) "></path>
     </g>
 </svg>

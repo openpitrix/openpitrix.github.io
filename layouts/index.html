@@ -147,15 +147,16 @@
     <div class="container">
       {{ with .Site.Params.Index.Eighth }}     
         <div class="section-content">
-          <h3 class="section-title">{{ .title }}</h3>
+          <h3 class="section-title" data-aos="fade" data-aos-delay="100" data-aos-anchor="#eighth">{{ .title }}</h3>
           <div class="section-case">
-            <div class="section-desc">
-              <ul>
-                {{ range .architecture }}
-                  <li>{{ .name }}</li>
-                {{ end }}
-              </ul>
-            </div>
+            <ul>
+              {{ range .cases }}
+                <li data-aos="fade" data-aos-delay="300" data-aos-anchor="#eighth">
+                  <i></i>
+                  <div class="section-case_content">{{ .desc }}</div>
+                </li>
+              {{ end }}
+            </ul>
           </div>
         </div>
       {{ end }}

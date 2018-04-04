@@ -57,17 +57,17 @@ copyright = "Openpitrix Technology © 2018"
         title = "Microservice Architecture Oriented"
         desc = "OpenPitrix itself adopts microservice architecture. The system can be deployed into virtual machine, container orchestration system such as Kubernetes, or bare metal."
     [languages.en.index.seventh]
-        title = ""
+        title = "As the picture show"
     [languages.en.index.eighth]
-        title = "Use Cases" 
-        [[languages.en.index.eighth.architecture]]
-            name = "Deployed as one-stop-shop application management platform in an organization to support multiple cloud systems including hybrid cloud."
+        title = "Use Cases"
+        [[languages.en.index.eighth.cases]]
+            desc = "Deployed as one-stop-shop application management platform in an organization to support multiple cloud systems including hybrid cloud."
             weight = 1
-        [[languages.en.index.eighth.architecture]]
-            name = "Cloud management platform (CMP) can use OpenPitrix as a component to manage applications in multi-cloud environment."
+        [[languages.en.index.eighth.cases]]
+            desc = "Cloud management platform (CMP) can use OpenPitrix as a component to manage applications in multi-cloud environment."
             weight = 2
-        [[languages.en.index.eighth.architecture]]
-            name = "Deployed as application management system in Kubernetes. OpenPitrix is different than Helm, OpenPitrix uses Helm under the hood though. In an organization, people usually want to categorize applications by status such as developing, testing, staging, production; or by departments of their organization, to name a few."
+        [[languages.en.index.eighth.cases]]
+            desc = "Deployed as application management system in Kubernetes. OpenPitrix is different than Helm, OpenPitrix uses Helm under the hood though. In an organization, people usually want to categorize applications by status such as developing, testing, staging, production; or by departments of their organization, to name a few."
             weight = 3
     [languages.en.index.footer]
         title = "About Pitrix itself"
