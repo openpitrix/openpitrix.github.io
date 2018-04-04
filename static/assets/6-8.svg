@@ -23,7 +23,7 @@
             <feColorMatrix values="0 0 0 0 0.176699523   0 0 0 0 0.05497985   0 0 0 0 0.312739158  0 0 0 0.82 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-434.000000, -4032.000000)">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-434.000000, -4032.000000)">
         <g id="Group-38" transform="translate(411.000000, 4018.000000)">
             <g id="Group-37" transform="translate(83.380502, 95.062407) rotate(5.000000) translate(-83.380502, -95.062407) translate(7.380502, 7.062407)">
                 <rect id="Rectangle-56" fill="url(#linearGradient-1)" transform="translate(83.500000, 110.000000) rotate(-19.000000) translate(-83.500000, -110.000000) " x="29" y="59" width="109" height="102"></rect>

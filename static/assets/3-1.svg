@@ -19,7 +19,7 @@
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-672.000000, -1400.000000)">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-672.000000, -1400.000000)">
         <g id="1" transform="translate(690.000000, 1416.000000)">
             <g id="Rectangle-12-Copy">
                 <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>

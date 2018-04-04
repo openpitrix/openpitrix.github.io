@@ -13,7 +13,7 @@
             <stop stop-color="#FAFAFA" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-151.000000, -3765.000000)">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-151.000000, -3765.000000)">
         <g id="Group-35-Copy-2" transform="translate(184.333264, 3805.870590) rotate(-165.000000) translate(-184.333264, -3805.870590) translate(137.833264, 3757.870590)">
             <polygon id="Rectangle-54-Copy" fill="url(#linearGradient-1)" transform="translate(28.716488, 34.463894) rotate(-319.000000) translate(-28.716488, -34.463894) " points="20.8593755 4.1888087 40.2894539 17.2635352 36.8213338 64.73898 17.1435224 51.4975511"></polygon>
             <polygon id="Rectangle-54-Copy" fill="#BBB0C7" transform="translate(63.747111, 31.861752) scale(-1, 1) rotate(-319.000000) translate(-63.747111, -31.861752) " points="62.9466319 -1.12693261 73.1900314 19.8254277 66.5987534 64.8504367 54.3041903 39.7025237"></polygon>
