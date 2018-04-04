@@ -1,11 +1,3 @@
-/* common */
-.pc-show {
-  display: block;
-}
-.mobile-show {
-  display: none;
-}
-
 /* pc narrow screen */
 @media (max-width: 1200px) {
   .main .section-content {

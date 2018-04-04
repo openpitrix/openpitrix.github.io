@@ -1,0 +1,16 @@
+<div id="article-comment" class="article-comment"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '1e6d9225363311fd7e38',
+    clientSecret: 'cc563d0c7ba9bb84053ccd6b9b305a7fa004fd2e',
+    repo: 'openpitrix.github.io',
+    owner: 'openpitrix',
+    language: 'en',
+    id: location.pathname,
+    admin: ['libangrui', 'leoendless', 'iwisunny', 'rayzhou2017'],
+    createIssueManually: true
+  });
+  gitalk.render('article-comment');
+</script>

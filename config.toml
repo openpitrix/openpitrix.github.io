@@ -1,4 +1,4 @@
-baseurl = "./"
+baseurl = "/"
 title = "OpenPitrix"
 googleAnalytics = ""
 disqusShortname = ""
@@ -7,6 +7,7 @@ preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+gitalk = true
 copyright = "Openpitrix Technology © 2018"
 
 [languages]
@@ -18,18 +19,22 @@ copyright = "Openpitrix Technology © 2018"
         name = "Documents"
         url = "/en/#"
         weight = 1
+    # [[languages.en.menu.main]]
+    #     name = "Blog"
+    #     url = "/en/blog"
+    #     weight = 2
     [[languages.en.menu.main]]
         name = "Features"
         url = "/en/#third"
-        weight = 2
+        weight = 3
     [[languages.en.menu.main]]
         name = "Use Cases"
         url = "/en/#eighth"
-        weight = 3
+        weight = 4
     [[languages.en.menu.main]]
         name = "About"
         url = "/en/#about"
-        weight = 4
+        weight = 5
 
     [languages.en.index.first]
         title = "Application Management"
@@ -139,8 +144,8 @@ copyright = "Openpitrix Technology © 2018"
         title = "About Pitrix itself"
         desc = "Pitrix [‘paitriks]means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications."        
 
-[permalinks]
-    post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
+[PermaLinks]
+  blog = "/blog/:year/:month/:filename/"
+
 [params]
     description = "A website built through Hugo and blogdown."
