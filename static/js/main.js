@@ -18,6 +18,10 @@
     $menuBtn.on('click', function() {
       $header.toggleClass('active');
     });
+
+    $(".blog-menu_type span").on('click', function() {
+      $(this).parent('.blog-menu_type').toggleClass('active');
+    });
   }
 
   function scrolHandler() {
