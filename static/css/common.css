@@ -122,12 +122,27 @@ body {
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: transparent;
-  transition: background-color .2s ease-in-out;
+  background: transparent;
+  transition: background-image .2s ease-in-out;
+}
+.header .logo2 {
+  display: none;
 }
 .header-fix {
-  background-color: #fff;
+  background: linear-gradient(to left, #794db3, #854fb9 32%, #484999);
+  box-shadow: 0 4px 20px 0 rgba(119, 133, 146, 0.3), 0 2px 8px 0 rgba(62, 82, 101, 0.2);
 }
+.header.header-fix .logo1 {
+  display: none;
+}
+.header.header-fix .logo2 {
+  display: block;
+}
+.header.header-fix .menu li a {
+  color: #fff;
+  font-weight: 400;
+}
+
 .menu-wrapper {
   float: right;
 }
@@ -147,11 +162,15 @@ body {
   text-align: left;
   text-decoration: none;
   transition: opacity .2s ease-in-out;
+  outline: none;
 }
 .menu li a:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 .menu li a:active {
+  opacity: 1;
+}
+.menu li a:focus {
   opacity: 1;
 }
 

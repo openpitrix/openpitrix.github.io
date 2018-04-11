@@ -505,7 +505,10 @@
   width: 58px;
   height: 58px;
   margin: 0 auto 44px;
-  background: transparent url('/assets/8-1.svg') no-repeat center;
+  background-color: transparent;
+  background-image: url('/assets/8-1.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .eighth .section-case ul li:nth-child(2) i {
