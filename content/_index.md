@@ -1,5 +1,8 @@
 ---
 title: An open-source system to manage applications on multiple clouds
+slug: /index
+date: 2017-12-08
+lang: zh
 ---
 
 [<img src="/logo-small.png" style="max-width:15%;min-width:40px;float:right;" alt="OpenPitrix" />](https://openpitrix.io)

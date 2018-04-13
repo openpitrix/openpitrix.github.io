@@ -1,4 +1,9 @@
-----
+---
+title: "contributing"
+slug: /contributing
+date: 2017-12-08
+lang: zh
+---
 
 ## Contributing to the project
 

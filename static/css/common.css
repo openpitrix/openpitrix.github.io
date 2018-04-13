@@ -149,6 +149,9 @@ a:hover {
 .menu li.active{
   border-bottom: 3px solid #F7B236;
 }
+.menu li.active a {
+  opacity: 1;
+}
 .menu li a {
   display: block;
   padding: 0 6px;
@@ -160,7 +163,7 @@ a:hover {
   text-align: left;
   text-decoration: none;
   outline: none;
-  transition: all .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
 }
 .menu li a:hover {
   opacity: 1;

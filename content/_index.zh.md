@@ -1,7 +1,7 @@
 ---
 title: 主页
 slug: /index
-
+date: 2017-12-08
 lang: zh
 ---
 
