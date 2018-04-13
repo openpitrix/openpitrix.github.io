@@ -1,0 +1,104 @@
+/* blog-page */
+.header {
+  background: linear-gradient(to left, #794db3, #854fb9 32%, #484999) !important;
+  box-shadow: 0 4px 20px 0 rgba(119, 133, 146, 0.3), 0 2px 8px 0 rgba(62, 82, 101, 0.2) !important;
+}
+.header .logo1 {
+  display: none;
+}
+.header .logo2 {
+  display: block;
+}
+.header .menu li a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.blog-article {
+  padding-top: 100px;
+}
+
+/* blog-menu */
+.blog-menu {
+  overflow: hidden;
+}
+.blog-menu h3 {
+  color: #6626AF;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0 0 20px 0;
+}
+.blog-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 18px;
+  font-size: 14px;
+}
+.blog-menu ul li {
+  list-style: none;
+}
+.blog-menu_type > span {
+  position: relative;
+  display: block;
+  margin-left: 20px;
+  line-height: 32px;
+  cursor: pointer;
+  user-select: none;
+}
+.blog-menu_type > span::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -16px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: transparent;
+  border-left-color: #6626AF;
+  transition: all .15s ease-in-out;
+}
+.blog-menu_type.active > span::before {
+  transform: rotate(90deg) translate(3px, 2px);
+}
+.blog-menu_type > .blog-menu_list {
+  display: none;
+  overflow: hidden;
+  box-shadow: border-box;
+  transition: all .15s ease-in-out;
+}
+.blog-menu_type.active > .blog-menu_list {
+  display: block;
+}
+.blog-menu_type > .blog-menu_list .blog-menu_type span{
+  margin-left: 40px;
+}
+.blog-menu_item {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 7px 15px 7px 40px;
+  text-decoration: none;
+  color: #7749AC;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+.blog-menu_item:hover {
+  background-color: #F5F7FA;
+}
+.blog-menu_item.active::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 24px;
+  width: 4px;
+  height: 4px;
+  background: #F7B236;
+}
+
+/* blog-comment */
+.gt-container a {
+  color: #6626AF !important;
+}
+.gt-container .gt-btn {
+  background-color: #6626AF !important;
+}

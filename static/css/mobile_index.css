@@ -211,8 +211,9 @@
     display: block;
     line-height: 0.21rem;
     padding: 0.12rem 0.3rem;
+    color: #300E56 !important;
     font-size: 0.18rem;
-    font-weight: normal;
+    font-weight: 400;
     opacity: 0.6;
   }
 
@@ -424,7 +425,7 @@
   }
 
   /* section.fifth */
-  .main .fifth .container{
+  .main .fifth .container {
     min-height: 3.04rem;
     padding: 0.2rem 0 5.2rem;
   }
@@ -433,8 +434,8 @@
     padding: 0 0.5rem;
   }
   .main .fifth .section-title-icon {
-    top: -0.18rem;
-    left: 0.5rem;
+    top: -0.2rem;
+    left: 0.1rem;
     width: 0.34rem;
     height: 0.34rem;
   }

@@ -77,34 +77,64 @@ body {
   margin: 0 8px 0 0;
 }
 .sider {
-  float: left;
-  width: 280px;
+  position: fixed;
+  top: 100px;
+  bottom: 66px;
+  width: 260px;
 }
 .article {
   padding: 94px 0 20px;
 }
-.article article{
-  margin-left: 320px;
+.article article {
+  margin-left: 300px;
+  width: 760px;
 }
 .article-meta {
   overflow: hidden;
+  padding: 30px 0 0;
+}
+.article-meta h3 {
+  float: left;
+  color: #300E56;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  margin: 0;
 }
 .article-title {
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 33px;
   color: #6626AF;
-  margin: 0 0 20px;
+  margin: 0 0 8px;
 }
-.article-date {
-  float: left;
-  margin: 0 20px 0 0;
+.article-info {
+  overflow: hidden;
+  margin: 10px;
 }
-.article-author {
+.article-info h3::before {
+  content: "|";
   float: left;
-  margin: 0 10px 0 0;
+  color: #C9BED6;
+  margin: 0 8px;
+}
+.article-info h3:first-child::before {
+  display: none;
 }
 .article-content {
-  padding: 10px 0;
+  padding: 14px 0;
   margin: 0 0 20px 0;
+}
+.article-content h2 {
+  margin: 0 0 8px;
+  color: #300E56;
+  font-size: 20px;
+  line-height: 26px;
+}
+.article-content p {
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 10px;
 }
 
 /* header */
@@ -112,7 +142,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   height: 23px;
-  margin: 30px 0;
+  margin: 24px 0;
 }
 .logo img {
   height: 100%;
@@ -122,12 +152,27 @@ body {
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: transparent;
-  transition: background-color .2s ease-in-out;
+  background: transparent;
+  transition: background-image .2s ease-in-out;
+}
+.header .logo2 {
+  display: none;
 }
 .header-fix {
-  background-color: #fff;
+  background: linear-gradient(to left, #794db3, #854fb9 32%, #484999);
+  box-shadow: 0 4px 20px 0 rgba(119, 133, 146, 0.3), 0 2px 8px 0 rgba(62, 82, 101, 0.2);
 }
+.header.header-fix .logo1 {
+  display: none;
+}
+.header.header-fix .logo2 {
+  display: block;
+}
+.header.header-fix .menu li a {
+  color: #fff;
+  font-weight: 400;
+}
+
 .menu-wrapper {
   float: right;
 }
@@ -137,7 +182,7 @@ body {
 }
 .menu li {
   display: inline-block;
-  padding: 34px 0;
+  padding: 27.5px 0;
   margin-left: 46px;
 }
 .menu li a {
@@ -147,11 +192,15 @@ body {
   text-align: left;
   text-decoration: none;
   transition: opacity .2s ease-in-out;
+  outline: none;
 }
 .menu li a:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 .menu li a:active {
+  opacity: 1;
+}
+.menu li a:focus {
   opacity: 1;
 }
 
@@ -193,87 +242,44 @@ footer {
   opacity: 0.8;
 }
 
-/* blog-menu */
-.blog-menu {
+/* site-link */
+.site-link {
+  position: fixed;
+  top: 220px;
+  width: 28px;
+  margin-left: 1100px;
   overflow: hidden;
 }
-.blog-menu h3 {
-  color: #6626AF;
-  margin: 0 0 20px 0;
-}
-.blog-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  line-height: 1.2;
-  font-size: 16px;
-}
-.blog-menu ul li{
-  list-style: none;
-  padding: 0 0 0 15px;
-  margin: 0 0 10px;
-}
-.blog-menu ul li:last-child {
-  margin: 0;
-}
-.blog-menu_type > span{
-  position: relative;
+.site-link a {
   display: block;
-  padding-left: 18px;
-  margin: 0 0 0 -15px;
-  cursor: pointer;
-  user-select: none;
+  width: 28px;
+  height: 28px;
+  margin: 0 0 20px;
+  text-indent: -9999em;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-.blog-menu_type > span::before {
-  content: "";
-  position: absolute;
-  top: 3px;
-  left: 2px;
-  border-style: solid;
-  border-width: 6px 8px;
-  border-color: transparent;
-  border-left-color: #6626AF;
-  transition: all .15s ease-in-out;
+.site-link .github {
+  background-image: url('/assets/github.svg')
 }
-.blog-menu_type.active > span::before {
-  transform: rotate(90deg) translate(4px, 4px);
+.site-link .github:hover {
+  background-image: url('/assets/github-hover.svg')
 }
-.blog-menu_type > .blog-menu_list {
-  display: none;
-  padding-top: 8px;
-  overflow: hidden;
-  box-shadow: border-box;
-  transition: all .15s ease-in-out;
+.site-link .slack {
+  background-image: url('/assets/slack.svg')
 }
-.blog-menu_type.active > .blog-menu_list {
-  display: block;
+.site-link .slack:hover {
+  background-image: url('/assets/slack-hover.svg')
 }
-.blog-menu_item {
-  display: block;
-  width: 100%;
-  padding: 0 0 0 3px;
-  margin: 0 0 8px;
-  text-decoration: none;
-  color: #333;
-  word-wrap: break-word;
-  box-sizing: border-box;
+.site-link .twitter {
+  background-image: url('/assets/twitter.svg')
 }
-.blog-menu_item:last-child {
-  margin: 0;
+.site-link .twitter:hover {
+  background-image: url('/assets/twitter-hover.svg')
 }
-.blog-menu_item:hover {
-  color: #6626AF;
-  text-decoration: underline;
+.site-link .stack-overflow {
+  background-image: url('/assets/stack-overflow.svg')
 }
-.blog-menu_item.active {
-  color: #6626AF;
+.site-link .stack-overflow:hover {
+  background-image: url('/assets/stack-overflow-hover.svg')
 }
-
-/* blog-comment */
-.gt-container a {
-  color: #6626AF !important;
-}
-.gt-container .gt-btn {
-  background-color: #6626AF !important;
-}
-

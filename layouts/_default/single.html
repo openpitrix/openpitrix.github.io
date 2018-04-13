@@ -1,44 +1,55 @@
 {{ partial "header.html" . }}
 
-<div class="article clearfix">
+<div class="article blog-article clearfix">
 	<div class="container">
 		<aside class="sider">
-			<div class="blog-menu">
-				<h3>Blog Archive</h3>	
-				<ul>
-					{{ $currentPage := . }}
-					{{ range (where .Site.Pages "Type" "blog") }}
-						{{ range .Pages.GroupByDate "2006" }}
-							<li class="blog-menu_type {{if eq ($currentPage.Date.Format "2006") .Key }}active{{ end }}">
-								<span>{{ .Key }}</span>
-								<ul class="blog-menu_list">
-									{{ range .Pages.GroupByDate "January" }}
-										<li class="blog-menu_type {{if eq ($currentPage.Date.Format "January") .Key }}active{{ end }}">
-											<span>{{ .Key }}</span>
-											<div class="blog-menu_list">
-												{{ range .Pages }}
-													<a
-														class="blog-menu_item {{if eq ($currentPage.Title) .Title }}active{{ end }}"
-														href="{{ .Permalink }}">
-														{{ .Title }}
-													</a>
-												{{ end }}
-											</div>
-										</li>
-									{{ end }}
-								</ul>
-							</li>
+			{{ if eq .Dir "blog/"}}
+				<div class="blog-menu">
+					<h3>Blog Archive</h3>	
+					<ul>
+						{{ $currentPage := . }}
+						{{ range (where .Site.Pages "Type" "blog") }}
+							{{ range .Pages.GroupByDate "2006" }}
+								<li class="blog-menu_type {{if eq ($currentPage.Date.Format "2006") .Key }}active{{ end }}">
+									<span>{{ .Key }}</span>
+									<ul class="blog-menu_list">
+										{{ range .Pages.GroupByDate "January" }}
+											<li class="blog-menu_type {{if eq ($currentPage.Date.Format "January") .Key }}active{{ end }}">
+												<span>{{ .Key }}</span>
+												<div class="blog-menu_list">
+													{{ range .Pages }}
+														<a
+															class="blog-menu_item {{if eq ($currentPage.Title) .Title }}active{{ end }}"
+															href="{{ .Permalink }}">
+															{{ .Title }}
+														</a>
+													{{ end }}
+												</div>
+											</li>
+										{{ end }}
+									</ul>
+								</li>
+							{{ end }}
 						{{ end }}
-					{{ end }}
-				</ul>
-			</div>
+					</ul>
+				</div>
+			{{ end }}
 		</aside>
+
+		<div class="site-link">
+			<a class="github" href="//www.github.com/openpitrix/openpitrix" target="_blank">github</a>
+			<a class="slack" href="//openpitrix.slack.com" target="_blank">slack</a>
+			<a class="twitter" href="//twitter.com/OpenPitrixorg" target="_blank">twitter</a>
+			<a class="stack-overflow" href="#">stack-overflow</a>
+		</div>
 
 		<article>
 			<div class="article-meta">
 				<h2 class="article-title">{{ .Title }}</h2>
-				{{ if .Params.date }}<h3 class="article-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</h3>{{ end }}					
-				{{ with .Params.author }}<h3 class="article-author">{{ . }}</h3>{{ end }}
+				<div class="article-info">
+					{{ with .Params.author }}<h3 class="article-author">{{ . }}</h3>{{ end }}
+					{{ if .Params.date }}<h3 class="article-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</h3>{{ end }}
+				</div>
 			</div>
 			<div class="article-content">
 				{{ .Content }}

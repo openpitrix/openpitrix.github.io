@@ -11,16 +11,19 @@
       <link rel="stylesheet" href="{{ "/css/index.css" | relURL }}" />
     {{ end }}
 
+    {{ if eq .Dir "blog/"}}
+      <link rel="stylesheet" href="{{ "/css/blog.css" | relURL }}" />
+    {{ end }}
+
     {{ partial "head_custom.html" . }}
   </head>
-
   <body>
     <nav class="header">
       <div class="container">
         <h1 class="logo">
           <a href="#">
             <img class="logo1" src="/assets/logo-new.svg" alt="openPitrix" />
-            <img class="mobile-show logo2" src="/assets/logo2-new.svg" alt="openPitrix" />
+            <img class="logo2" src="/assets/logo2-new.svg" alt="openPitrix" />
           </a>
         </h1>
         <button class="menu-btn mobile-show"></button>
