@@ -195,10 +195,12 @@
     transform: translate(0, 0);
   }
   .header .menu li {
+    float: none;
     position: relative;
     display: block;
     padding: 0;
     margin: 0;
+    height: auto;
   }
   .header .menu li img {
     position: absolute;
@@ -208,7 +210,7 @@
     height: 0.1rem;
   }
   .header .menu li a {
-    display: block;
+    height: auto;
     line-height: 0.21rem;
     padding: 0.12rem 0.3rem;
     color: #300E56 !important;

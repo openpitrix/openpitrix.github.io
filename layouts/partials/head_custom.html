@@ -1,2 +1,11 @@
 <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+{{ if .IsHome }}
+<link rel="stylesheet" href="{{ "/css/plugin/aos.css" | relURL }}" />
+<link rel="stylesheet" href="{{ "/css/index.css" | relURL }}" />
+{{ end }}
+
+{{ if eq .Section "blog"}}
+<link rel="stylesheet" href="{{ "/css/blog.css" | relURL }}" />
+{{ end }}
