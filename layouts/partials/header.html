@@ -11,9 +11,12 @@
       <link rel="stylesheet" href="{{ "/css/index.css" | relURL }}" />
     {{ end }}
 
+    {{ if eq .Dir "blog/"}}
+      <link rel="stylesheet" href="{{ "/css/blog.css" | relURL }}" />
+    {{ end }}
+
     {{ partial "head_custom.html" . }}
   </head>
-
   <body>
     <nav class="header">
       <div class="container">
