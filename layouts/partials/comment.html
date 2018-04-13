@@ -7,10 +7,11 @@
     clientSecret: 'cc563d0c7ba9bb84053ccd6b9b305a7fa004fd2e',
     repo: 'openpitrix.github.io',
     owner: 'openpitrix',
-    language: 'en',
+    language: '{{ .Site.Language.Lang }}',
     id: location.pathname,
     admin: ['libangrui', 'leoendless', 'iwisunny', 'rayzhou2017'],
     // createIssueManually: true
   });
   gitalk.render('article-comment');
 </script>
+  

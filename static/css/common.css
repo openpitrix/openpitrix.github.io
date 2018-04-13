@@ -8,6 +8,13 @@ body {
   overflow-x: hidden;
   font-size: 14px;
 }
+a {
+  color: #6626AF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 .clearfix {
   zoom: 1;
 }
@@ -86,55 +93,8 @@ body {
   padding: 94px 0 20px;
 }
 .article article {
-  margin-left: 300px;
+  margin-left: 280px;
   width: 760px;
-}
-.article-meta {
-  overflow: hidden;
-  padding: 30px 0 0;
-}
-.article-meta h3 {
-  float: left;
-  color: #300E56;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 18px;
-  margin: 0;
-}
-.article-title {
-  font-size: 28px;
-  line-height: 33px;
-  color: #6626AF;
-  margin: 0 0 8px;
-}
-.article-info {
-  overflow: hidden;
-  margin: 10px;
-}
-.article-info h3::before {
-  content: "|";
-  float: left;
-  color: #C9BED6;
-  margin: 0 8px;
-}
-.article-info h3:first-child::before {
-  display: none;
-}
-.article-content {
-  padding: 14px 0;
-  margin: 0 0 20px 0;
-}
-.article-content h2 {
-  margin: 0 0 8px;
-  color: #300E56;
-  font-size: 20px;
-  line-height: 26px;
-}
-.article-content p {
-  color: #333;
-  font-size: 14px;
-  line-height: 24px;
-  margin: 0 0 10px;
 }
 
 /* header */
@@ -170,29 +130,37 @@ body {
 }
 .header.header-fix .menu li a {
   color: #fff;
-  font-weight: 400;
 }
 
 .menu-wrapper {
   float: right;
 }
 .menu {
-  margin: 0;
   list-style: none;
+  margin: 0 -23px;
+  padding: 0;
 }
 .menu li {
-  display: inline-block;
-  padding: 27.5px 0;
-  margin-left: 46px;
+  float: left;
+  margin:0 17px;
+  height: 71px;
+  box-sizing: border-box;
+}
+.menu li.active{
+  border-bottom: 3px solid #F7B236;
 }
 .menu li a {
-  color: #300E56;
+  display: block;
+  padding: 0 6px;
+  line-height: 71px;
+  box-sizing: border-box;
   opacity: 0.6;
+  color: #300E56;
   font-weight: 500;
   text-align: left;
   text-decoration: none;
-  transition: opacity .2s ease-in-out;
   outline: none;
+  transition: all .3s ease-in-out;
 }
 .menu li a:hover {
   opacity: 1;
@@ -246,40 +214,38 @@ footer {
 .site-link {
   position: fixed;
   top: 220px;
-  width: 28px;
-  margin-left: 1100px;
+  width: 30px;
+  margin-left: 1098px;
   overflow: hidden;
 }
 .site-link a {
   display: block;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   margin: 0 0 20px;
   text-indent: -9999em;
-  background-size: 100%;
+  border-radius: 50%;
+  background-color: #443D4E;
+  background-size: 28px 28px;
   background-repeat: no-repeat;
+  background-position: center center;
+  transition: all .2s ease;
+}
+.site-link a:hover {
+  background-color: #6626AF;
+}
+.site-link a:active {
+  background-color: #794db3;
 }
 .site-link .github {
   background-image: url('/assets/github.svg')
 }
-.site-link .github:hover {
-  background-image: url('/assets/github-hover.svg')
-}
 .site-link .slack {
   background-image: url('/assets/slack.svg')
-}
-.site-link .slack:hover {
-  background-image: url('/assets/slack-hover.svg')
 }
 .site-link .twitter {
   background-image: url('/assets/twitter.svg')
 }
-.site-link .twitter:hover {
-  background-image: url('/assets/twitter-hover.svg')
-}
 .site-link .stack-overflow {
   background-image: url('/assets/stack-overflow.svg')
-}
-.site-link .stack-overflow:hover {
-  background-image: url('/assets/stack-overflow-hover.svg')
 }

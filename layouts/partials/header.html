@@ -6,31 +6,23 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
 
     <link rel="stylesheet" href="{{ "/css/common.css" | relURL }}" />
-    {{ if .IsHome }}
-      <link rel="stylesheet" href="{{ "/css/plugin/aos.css" | relURL }}" />
-      <link rel="stylesheet" href="{{ "/css/index.css" | relURL }}" />
-    {{ end }}
-
-    {{ if eq .Dir "blog/"}}
-      <link rel="stylesheet" href="{{ "/css/blog.css" | relURL }}" />
-    {{ end }}
-
     {{ partial "head_custom.html" . }}
   </head>
   <body>
     <nav class="header">
       <div class="container">
         <h1 class="logo">
-          <a href="#">
+          <a href="/">
             <img class="logo1" src="/assets/logo-new.svg" alt="openPitrix" />
             <img class="logo2" src="/assets/logo2-new.svg" alt="openPitrix" />
           </a>
         </h1>
         <button class="menu-btn mobile-show"></button>
         <div class="menu-wrapper">
-          <ul class="menu">
+          <ul class="menu clearfix">
+            {{ $currentSection := .Section }}
             {{ range .Site.Menus.main }}
-              <li>
+              <li class="{{if eq $currentSection .Identifier}}active{{end}}">
                 <a href="{{ .URL | relURL }}">{{ .Name }}</a>
                 <img class="mobile-show" src="/assets/arrow-right.svg" alt="arrow-right">
               </li>

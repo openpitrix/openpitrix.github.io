@@ -1,6 +1,6 @@
 ---
 title: "Why use slack for our daily communications?"
-author: ""
+author: "rayzhou2017"
 date: 2017-12-08
 gitalk: true
 categories:

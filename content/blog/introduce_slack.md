@@ -1,10 +1,10 @@
 ---
-title: "Why use slack for our daily communications?" #required
-author: ""
-date: 2017-12-08 #required
+title: "Why use slack for our daily communications?"
+author: "rayzhou2017"
+date: 2017-12-08
 gitalk: true
 categories:
-  - 日志
+  - Log
   - OpenPitrix
 tags:
   - Markdown
