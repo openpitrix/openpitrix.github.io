@@ -2,7 +2,6 @@
 title: "OpenPitrix Insight"
 author: "rayzhou2017"
 date: 2018-03-27
-gitalk: true
 categories:
   - 日志
   - OpenPitrix
