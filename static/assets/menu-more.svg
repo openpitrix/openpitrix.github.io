@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>more</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-132.000000, -148.000000)">
+        <g id="Group-2" transform="translate(22.000000, 138.000000)">
+            <g id="more" transform="translate(108.000000, 5.000000)">
+                <rect id="Rectangle-14" x="0" y="0" width="24" height="24"></rect>
+                <path d="M6,5 L22,5 L22,7 L6,7 L6,5 Z M6,11 L22,11 L22,13 L6,13 L6,11 Z M6,17 L22,17 L22,19 L6,19 L6,17 Z M2,5 L4,5 L4,7 L2,7 L2,5 Z M2,11 L4,11 L4,13 L2,13 L2,11 Z M2,17 L4,17 L4,19 L2,19 L2,17 Z" id="Combined-Shape" fill="#6626AF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

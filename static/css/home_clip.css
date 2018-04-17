@@ -280,14 +280,6 @@
   animation-delay: .5s;
 }
 
-/* common */
-.pc-show {
-  display: block;
-}
-.mobile-show {
-  display: none;
-}
-
 /* pc narrow screen */
 @media (max-width: 1200px) {
   .section-process .center-pitrix-icon {
