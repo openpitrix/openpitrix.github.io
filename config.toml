@@ -40,6 +40,11 @@ copyright = "Openpitrix Technology © 2018"
         name = "About"
         url = "/en/#about"
         weight = 5
+    [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/openpitrix/openpitrix"
+        weight = 6
 
     [languages.en.index.first]
         title = "Application Management"
@@ -107,6 +112,11 @@ copyright = "Openpitrix Technology © 2018"
         name = "关于"
         url = "/zh/#about"
         weight = 5
+    [[languages.zh.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/openpitrix/openpitrix"
+        weight = 6
 
     [languages.zh.index.first]
         title = "Application Management"
