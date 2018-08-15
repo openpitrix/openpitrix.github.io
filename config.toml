@@ -67,7 +67,7 @@ copyright = "Openpitrix Technology © 2018"
         title = "Microservice Architecture Oriented"
         desc = "OpenPitrix itself adopts microservice architecture. The system can be deployed into virtual machine, container orchestration system such as Kubernetes, or bare metal."
     [languages.en.index.seventh]
-        title = "As the picture show"
+        title = "As the picture shows"
     [languages.en.index.eighth]
         title = "Use Cases"
         [[languages.en.index.eighth.cases]]
@@ -140,7 +140,7 @@ copyright = "Openpitrix Technology © 2018"
         title = "Microservice Architecture Oriented"
         desc = "OpenPitrix itself adopts microservice architecture. The system can be deployed into virtual machine, container orchestration system such as Kubernetes, or bare metal."
     [languages.zh.index.seventh]
-        title = "As the picture show"
+        title = "As the picture shows"
     [languages.zh.index.eighth]
         title = "Use Cases"
         [[languages.zh.index.eighth.cases]]
