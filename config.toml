@@ -132,7 +132,7 @@ copyright = "Openpitrix Technology © 2018"
         title = "Adopted microservice for openpitrix itself"
         desc = "Openpitrix adopted microservice, every function have indepent service, architecture high level."
     [languages.zh.index.seventh]
-        title = "As the picture show"
+        title = "As the picture shows"
     [languages.zh.index.eighth]
         title = "Use Cases"        
     [languages.zh.index.footer]
