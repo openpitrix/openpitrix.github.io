@@ -1,15 +1,70 @@
 {{ partial "header.html" . }}
 
-{{ if not .IsHome }}
-    <div class="article-meta">
-    <h1><span class="title">{{ .Title }}</span></h1>
-    {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
-    {{ if .Params.date }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
-    </div>
-{{ end }}
+<div class="article blog-article clearfix">
+	<div class="container">
+		<aside class="sider">
+			{{ if eq .Dir "blog/"}}
+				<div class="blog-menu">
+					<h3>Blog Archive</h3>	
+					<ul>
+						{{ $currentPage := . }}
+						{{ range (where .Site.Pages "Type" "blog") }}
+							{{ range .Pages.GroupByDate "2006" }}
+								<li class="blog-menu_type {{if eq ($currentPage.Date.Format "2006") .Key }}active{{ end }}">
+									<span>{{ .Key }}</span>
+									<ul class="blog-menu_list">
+										{{ range .Pages.GroupByDate "January" }}
+											<li class="blog-menu_type {{if eq ($currentPage.Date.Format "January") .Key }}active{{ end }}">
+												<span>{{ .Key }}</span>
+												<div class="blog-menu_list">
+													{{ range .Pages }}
+														<a
+															class="blog-menu_item {{if eq ($currentPage.Title) .Title }}active{{ end }}"
+															href="{{ .Permalink }}">
+															{{ .Title }}
+														</a>
+													{{ end }}
+												</div>
+											</li>
+										{{ end }}
+									</ul>
+								</li>
+							{{ end }}
+						{{ end }}
+					</ul>
+				</div>
+			{{ end }}
+		</aside>
 
-<main>
-{{ .Content }}
-</main>
+		<div class="sider-menu-trigger mobile-show">
+			Blog Archive
+		</div>
+
+		<div class="site-link pc-show">
+			<a class="github" href="//www.github.com/openpitrix/openpitrix" target="_blank">github</a>
+			<a class="slack" href="//openpitrix.slack.com" target="_blank">slack</a>
+			<a class="twitter" href="//twitter.com/OpenPitrixorg" target="_blank">twitter</a>
+			<a class="stack-overflow" href="#">stack-overflow</a>
+		</div>
+
+		<article>
+			<div class="article-meta">
+				<h2 class="article-title">{{ .Title }}</h2>
+				<div class="article-info">
+					{{ with .Params.author }}<h3 class="article-author">By <strong>{{ . }}</strong></h3>{{ end }}
+					<h3 class="article-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</h3>
+				</div>
+			</div>
+			<div class="article-content md-body">
+				{{ .Content }}
+			</div>
+
+			{{ if eq .Params.gitalk false }}
+			{{ else }}
+				{{ partial "comment.html" . }}
+			{{ end }}
+		</article>
+	</div>
+</div>
 
 {{ partial "footer.html" . }}

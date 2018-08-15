@@ -1,4 +1,4 @@
-baseurl = "./"
+baseurl = "/"
 title = "OpenPitrix"
 googleAnalytics = ""
 disqusShortname = ""
@@ -7,6 +7,7 @@ preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+disablePathToLower = true
 copyright = "Openpitrix Technology © 2018"
 
 [languages]
@@ -15,21 +16,35 @@ copyright = "Openpitrix Technology © 2018"
     footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [Gitee](https://gitee.com/openpitrix)"
 
     [[languages.en.menu.main]]
+        identifier = "docs"
         name = "Documents"
         url = "/en/#"
         weight = 1
     [[languages.en.menu.main]]
-        name = "Features"
-        url = "/en/#third"
+        identifier = "blog"
+        name = "Blog"
+        url = "/en/blog/2018/03/OpenPitrix-Insight"
         weight = 2
     [[languages.en.menu.main]]
-        name = "Use Cases"
-        url = "/en/#eighth"
+        identifier = "features"
+        name = "Features"
+        url = "/en/#third"
         weight = 3
     [[languages.en.menu.main]]
+        identifier = "cases"
+        name = "Use Cases"
+        url = "/en/#eighth"
+        weight = 4
+    [[languages.en.menu.main]]
+        identifier = "about"
         name = "About"
         url = "/en/#about"
-        weight = 4
+        weight = 5
+    [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/openpitrix/openpitrix"
+        weight = 6
 
     [languages.en.index.first]
         title = "Application Management"
@@ -54,93 +69,95 @@ copyright = "Openpitrix Technology © 2018"
     [languages.en.index.seventh]
         title = "As the picture shows"
     [languages.en.index.eighth]
-        title = "Use Cases" 
-        [[languages.en.index.eighth.architecture]]
-            name = "Deployed as one-stop-shop application management platform in an organization to support multiple cloud systems including hybrid cloud."
+        title = "Use Cases"
+        [[languages.en.index.eighth.cases]]
+            desc = "Deployed as one-stop-shop application management platform in an organization to support multiple cloud systems including hybrid cloud."
             weight = 1
-        [[languages.en.index.eighth.architecture]]
-            name = "Cloud management platform (CMP) can use OpenPitrix as a component to manage applications in multi-cloud environment."
+        [[languages.en.index.eighth.cases]]
+            desc = "Cloud management platform (CMP) can use OpenPitrix as a component to manage applications in multi-cloud environment."
             weight = 2
-        [[languages.en.index.eighth.architecture]]
-            name = "Deployed as application management system in Kubernetes. OpenPitrix is different than Helm, OpenPitrix uses Helm under the hood though. In an organization, people usually want to categorize applications by status such as developing, testing, staging, production; or by departments of their organization, to name a few."
+        [[languages.en.index.eighth.cases]]
+            desc = "Deployed as application management system in Kubernetes. OpenPitrix is different than Helm, OpenPitrix uses Helm under the hood though. In an organization, people usually want to categorize applications by status such as developing, testing, staging, production; or by departments of their organization, to name a few."
             weight = 3
     [languages.en.index.footer]
         title = "About Pitrix itself"
-        desc = "Pitrix [‘paitriks]means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications."  
+        desc = "Pitrix [‘paitriks]means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications."
 
 [languages.zh]
     languageCode = "zh-cn"
     footer = "&copy; [openpitrix.io](https://openpitrix.io) 2017 | [Github](https://github.com/openpitrix) | [码云](https://gitee.com/openpitrix)"
     
     [[languages.zh.menu.main]]
+        identifier = "docs"
         name = "文档"
         url = "/zh/#"
         weight = 1
     [[languages.zh.menu.main]]
-        name = "特性"
-        #url = "/zh/features"
-        url = "/zh/#third"
+        identifier = "blog"
+        name = "博客"
+        url = "/zh/blog/2018/03/OpenPitrix-Insight"
         weight = 2
     [[languages.zh.menu.main]]
-        name = "案例"
-        #url = "/zh/cases"
-        url = "/zh/#eighth"
+        identifier = "features"
+        name = "特性"
+        url = "/zh/#third"
         weight = 3
     [[languages.zh.menu.main]]
-        name = "关于"
-        url = "/zh/about"
+        identifier = "cases"
+        name = "案例"
+        url = "/zh/#eighth"
         weight = 4
+    [[languages.zh.menu.main]]
+        identifier = "about"
+        name = "关于"
+        url = "/zh/#about"
+        weight = 5
+    [[languages.zh.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/openpitrix/openpitrix"
+        weight = 6
 
     [languages.zh.index.first]
         title = "Application Management"
-        subTitle = "Platform on Multi-Cloud Environment"
-        desc = "OpenPitrix is an Open-source, enterprise  system for  package ,deploy and orchestration applications into multiple cloud environments such as QingCloud, AWS, Kubernetes etc."
+        subtitle = "Platform for Multi-Cloud Environment"
+        desc = "OpenPitrix is an open-source system to package, deploy and manage different types of applications including traditional application, microservice application and serverless applications into multiple cloud environment such as AWS, Azure, Kubernetes, QingCloud, OpenStack, VMWare etc."
         link = "敬请期待..."
     [languages.zh.index.second]
         title = "Why OpenPitrix?"
-        desc_begin = "Since software used in business, diversity software was developed. For example, categorize by architecture："
-        desc_end = "This is Cloud era, so all above application must run on cloud computing, Just like QingCloud, AWS, Or VMware, Kubernetes based envrionment. Which framework or platform can do this? So OpenPitrix make sence, born for resovle this problem."
-        [[languages.zh.index.second.architecture]]
-            name = "Java EE traditional enterprise application."
-            weight = 1
-        [[languages.zh.index.second.architecture]]
-            name = "LAMP ( linux, apache, mysql/postgresql, php/python/perl ) Open Source Software stack."
-            weight = 2
-        [[languages.zh.index.second.architecture]]
-            name = "Virtalization image."
-            weight = 3
-        [[languages.zh.index.second.architecture]]
-            name = "Container image."
-            weight = 4        
-        [[languages.zh.index.second.architecture]]
-            name = "Microservice components."
-            weight = 5
-        [[languages.zh.index.second.architecture]]
-            name = "and a lot of more."
-            weight = 6        
+        desc = "Nowadays cloud computing is widely adopted in enterprise organizations. Furthermore, most of enterprises have multi-cloud strategy for certain reasons. The multiple clouds are usually from different provides, resulting shadow IT becomes a reality again in cloud era. Therefore, how to manage and automate multi-cloud environment becomes an emerging requirement, especially for application management. Moreover, it is challenging to create one stop store that manages different types of applications, including traditional application (or called monolithic application), microservice application and serverless application. OpenPitrix is such a platform to solve these problems."
     [languages.zh.index.third]
-        title = "Template application and deployment framework"
-        desc = "Significantly reduce learning costs and operational complexity through declarative template specifications, reducing development cycles from months to days or even hours, dramatically reducing cloud application development, deployment and operational complexity."
+        title = "Templatize Application and Deployment Framework"
+        desc = "As like as image being template for an instance, enterprise application is also templatized on OpenPitrix. The application template is much more complicated than image in that it could contain many more images and defines the whole lifecycle of an application cluster. Moreover, it supports customized mornitoring, health check and many more features. Meanwhile, developer does not need to program for moving a traditional application into cloud which reduces development effort from months to days or even hours."
     [languages.zh.index.fourth]
-        title = "Support multiple cloud platforms"
-        desc_begin = "Adopted plug-in style development framework, abstraction the current mainstream cloud platform interface, uniform them for the user is completely transparent, reducing complexity for application developer."
-        desc_end = "public cloud platform supported include: AWS, GCE, Azure, QingCloud, etc.\r\nprivate cloud platform supported : Kubernetes, OpenStack, QingCloud, etc."
+        title = "Multiple Clouds Support"
+        desc_begin = "Support multiple clouds such as AWS, Azure, Kubernetes, QingCloud, OpenStack, VMWare and so on."
+        desc_end = "Cloud support is hightly extendable and pluggable."
     [languages.zh.index.fifth]
-        title = "Unify all kind of application, monolitic, microservice, distributed, etc."
-        desc = "The technology is evolving, application is same, but old sytle not disappear. all kinds of application coexist in cloud computing era. OpenPitrix adopted distributed configurtion management, abstract meta configuration infomation, compatible with all(almost) application."
+        title = "One Platform for all Kinds of Application"
+        desc = "Support a variaty of application types including traditional (also known as monolithic) application, microservice application and serverless application. Application type support is extendable which means no matter what new application type emerges in the future, the platform is able to support it by adding corresponding pluggin."
     [languages.zh.index.sixth]
-        title = "Adopted microservice for openpitrix itself"
-        desc = "Openpitrix adopted microservice, every function have indepent service, architecture high level."
+        title = "Microservice Architecture Oriented"
+        desc = "OpenPitrix itself adopts microservice architecture. The system can be deployed into virtual machine, container orchestration system such as Kubernetes, or bare metal."
     [languages.zh.index.seventh]
         title = "As the picture shows"
     [languages.zh.index.eighth]
-        title = "Use Cases"        
+        title = "Use Cases"
+        [[languages.zh.index.eighth.cases]]
+            desc = "Deployed as one-stop-shop application management platform in an organization to support multiple cloud systems including hybrid cloud."
+            weight = 1
+        [[languages.zh.index.eighth.cases]]
+            desc = "Cloud management platform (CMP) can use OpenPitrix as a component to manage applications in multi-cloud environment."
+            weight = 2
+        [[languages.zh.index.eighth.cases]]
+            desc = "Deployed as application management system in Kubernetes. OpenPitrix is different than Helm, OpenPitrix uses Helm under the hood though. In an organization, people usually want to categorize applications by status such as developing, testing, staging, production; or by departments of their organization, to name a few."
+            weight = 3
     [languages.zh.index.footer]
         title = "About Pitrix itself"
-        desc = "Pitrix [‘paitriks]means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications."        
+        desc = "Pitrix [‘paitriks]means the matrix of PaaS and IaaS which makes it easy to develop, deploy, manage applications including PaaS on various runtime environments, i.e., Pitrix = PaaS + IaaS + Matrix. It also means a matrix that contains endless (PI - the Greek letter “π”) applications."
 
-[permalinks]
-    post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
+[PermaLinks]
+  blog = "/blog/:year/:month/:filename/"
+
 [params]
     description = "A website built through Hugo and blogdown."

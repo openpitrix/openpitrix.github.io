@@ -1,7 +1,9 @@
 (function ($) {
   var $win = $(window);
   var $header = $('nav.header');
-  var $menuBtn = $('.menu-btn');
+  var $sider = $('.sider');
+  var $headerMenuBtn = $('.menu-btn');
+  var $siderMenuBtn = $('.sider-menu-trigger');
 
   function init() {
     AOS.init({
@@ -13,14 +15,28 @@
 
     new SmoothScroll('a[href*="#"]');
 
-    window.onscroll = scrolHandler;
+    window.onscroll = scrollHandler;
 
-    $menuBtn.on('click', function() {
-      $header.toggleClass('active');
+    $headerMenuBtn.on('click', function() {
+      if($header.hasClass('l-active')) {
+        $header.removeClass('l-active');
+        $sider.removeClass('active');
+      } else {
+        $header.toggleClass('active');
+      }
+    });
+
+    $siderMenuBtn.on('click', function() {
+      $header.addClass('l-active');
+      $sider.addClass('active');
+    });
+
+    $(".blog-menu_type span").on('click', function() {
+      $(this).parent('.blog-menu_type').toggleClass('active');
     });
   }
 
-  function scrolHandler() {
+  function scrollHandler() {
     $header.toggleClass('header-fix', $win.scrollTop() > 100);
   }
 

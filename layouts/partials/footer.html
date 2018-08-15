@@ -1,12 +1,14 @@
 <footer>
-  <section id="about">
-    {{ with .Site.Params.Index.Footer }}
-      <div class="footer-about">
-        <h2>{{ .title }}</h2>
-        <p>{{ .desc }}</p>
-      </div>
-    {{ end }}
-  </section>
+  {{ if .IsHome }}
+    <section id="about">
+      {{ with .Site.Params.Index.Footer }}
+        <div class="footer-about">
+          <h2>{{ .title }}</h2>
+          <p>{{ .desc }}</p>
+        </div>
+      {{ end }}
+    </section>
+  {{ end}}
 
   <div class="footer-business">
     <div class="container">

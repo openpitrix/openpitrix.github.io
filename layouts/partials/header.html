@@ -5,32 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
 
-    {{ if .IsHome }}
-    <link rel="stylesheet" href="{{ "/css/plugin/aos.css" | relURL }}" />
-    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
-    {{ end }}
-
+    <link rel="stylesheet" href="{{ "/css/common.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
   </head>
-
   <body>
     <nav class="header">
       <div class="container">
         <h1 class="logo">
-          <a href="#">
-            <img class="pc-show" src="/assets/logo-new.svg" alt="openPitrix" height="23">
-            <span class="logo1 mobile-show" style="background-image: url('/assets/logo-1.svg');"></span>
-            <span class="logo2" style="background-image: url('/assets/logo-2.svg');"></span>
+          <a href="/">
+            <img class="logo1" src="/assets/logo-new.svg" alt="openPitrix" />
+            <img class="logo2" src="/assets/logo2-new.svg" alt="openPitrix" />
           </a>
         </h1>
         <button class="menu-btn mobile-show"></button>
         <div class="menu-wrapper">
-          <ul class="menu">
+          <ul class="menu clearfix">
+            {{ $currentSection := .Section }}
             {{ range .Site.Menus.main }}
-            <li>
-              <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-              <img class="mobile-show" src="/assets/arrow-right.svg" alt="arrow-right">
-            </li>
+              <li class="{{if eq $currentSection .Identifier}}active{{end}}">
+                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                <img class="mobile-show" src="/assets/arrow-right.svg" alt="arrow-right">
+              </li>
             {{ end }}
           </ul>
         </div>

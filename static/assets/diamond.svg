@@ -4,7 +4,7 @@
     <title>菱形</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="openpitrix官网页面-copy-11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-65.000000, -1635.000000)">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-65.000000, -1635.000000)">
         <g id="菱形" transform="translate(64.000000, 1631.000000)">
             <rect id="Rectangle-76" x="0" y="0" width="68" height="68"></rect>
             <path d="M22.5769314,4 L61,4 C63.209139,4 65,5.790861 65,8 C65,8.65582648 64.8387451,9.3015929 64.530436,9.88043125 L46.9535046,42.8804313 C46.2586714,44.1849533 44.901098,45 43.4230686,45 L5,45 C2.790861,45 1,43.209139 1,41 C1,40.3441735 1.16125485,39.6984071 1.46956401,39.1195687 L19.0464954,6.11956875 C19.7413286,4.8150467 21.098902,4 22.5769314,4 Z" id="Rectangle-26" fill="#EDAD15"></path>

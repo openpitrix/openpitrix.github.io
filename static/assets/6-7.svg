@@ -27,7 +27,7 @@
             <feColorMatrix values="0 0 0 0 0.176699523   0 0 0 0 0.05497985   0 0 0 0 0.312739158  0 0 0 0.82 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="openpitrix官网页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-201.000000, -4024.000000)">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-201.000000, -4024.000000)">
         <g id="Group-40" transform="translate(201.000000, 4022.000000)">
             <g id="Group-36">
                 <polygon id="Rectangle-55-Copy-2" fill="url(#linearGradient-1)" transform="translate(57.033554, 17.114951) rotate(-15.000000) translate(-57.033554, -17.114951) " points="-1.5579582 15.4524507 100.081448 15.4524507 115.625066 17.5384666 14.1288764 17.5859841"></polygon>

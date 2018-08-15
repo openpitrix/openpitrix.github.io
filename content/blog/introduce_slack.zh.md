@@ -1,7 +1,7 @@
 ---
 title: "Why use slack for our daily communications?"
-author: ""
-date: 2017-12-08T12:47:05+08:00 
+author: "rayzhou2017"
+date: 2017-12-08
 categories:
   - 日志
   - OpenPitrix

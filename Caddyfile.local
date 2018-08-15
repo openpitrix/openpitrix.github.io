@@ -11,4 +11,5 @@ root /srv/openpitrix.github.io/public
 on startup hugo
 
 gopkg /openpitrix https://github.com/openpitrix/openpitrix
-gopkg /libconfd https://github.com/openpitrix/libconfd
+gopkg /libconfd   https://github.com/openpitrix/libconfd
+gopkg /metad      https://github.com/openpitrix/metad
