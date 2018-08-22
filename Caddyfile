@@ -2,30 +2,27 @@
 # Use of this source code is governed by a Apache license
 # that can be found in the LICENSE file.
 
-https://openpitrix.io {
-    tls appcenter@yunify.com
-    browse
+0.0.0.0
+browse
 
-    log stdout
-    errors stdout
-    gzip
-    root /srv/openpitrix.github.io/public
-    hugo /srv/openpitrix.github.io
+log stdout
+errors stdout
+gzip
+root /srv/openpitrix.github.io/public
+hugo /srv/openpitrix.github.io
 
-    gopkg /openpitrix https://github.com/openpitrix/openpitrix
-    gopkg /libconfd   https://github.com/openpitrix/libconfd
-    gopkg /metad      https://github.com/openpitrix/metad
+gopkg /openpitrix https://github.com/openpitrix/openpitrix
+gopkg /libconfd   https://github.com/openpitrix/libconfd
+gopkg /metad      https://github.com/openpitrix/metad
 
-    git {
-            path /srv/openpitrix.github.io
-            repo https://github.com/openpitrix/openpitrix.github.io.git
-            hook /webhook QingCloud
-            hook_type github
-            then hugo --destination=/srv/openpitrix.github.io/public
-            interval 1800
-    }
+git {
+        path /srv/openpitrix.github.io
+        repo https://github.com/openpitrix/openpitrix.github.io.git
+        hook /webhook QingCloud
+        hook_type github
+        then hugo --destination=/srv/openpitrix.github.io/public
+        interval 1800
 }
 
-http://openpitrix.io, https://www.openpitrix.io, http://www.openpitrix.io {
-    redir https://openpitrix.io{uri}
-}
+
+
