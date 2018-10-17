@@ -13,3 +13,6 @@ on startup hugo
 gopkg /openpitrix https://github.com/openpitrix/openpitrix
 gopkg /libconfd   https://github.com/openpitrix/libconfd
 gopkg /metad      https://github.com/openpitrix/metad
+gopkg /drone      https://github.com/openpitrix/drone
+gopkg /logger     https://github.com/openpitrix/logger
+
