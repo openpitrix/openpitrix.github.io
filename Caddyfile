@@ -16,6 +16,7 @@ gopkg /libconfd   https://github.com/openpitrix/libconfd
 gopkg /metad      https://github.com/openpitrix/metad
 gopkg /drone      https://github.com/openpitrix/drone
 gopkg /logger     https://github.com/openpitrix/logger
+gopkg /metadata   https://github.com/openpitrix/metadata
 
 git {
         path /srv/openpitrix.github.io
