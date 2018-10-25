@@ -18,7 +18,7 @@ copyright = "Openpitrix Technology © 2018"
     [[languages.en.menu.main]]
         identifier = "docs"
         name = "Documents"
-        url = "/en/#"
+        url = "https://docs.openpitrix.io"
         weight = 1
     [[languages.en.menu.main]]
         identifier = "blog"
@@ -90,7 +90,7 @@ copyright = "Openpitrix Technology © 2018"
     [[languages.zh.menu.main]]
         identifier = "docs"
         name = "文档"
-        url = "/zh/#"
+        url = "https://docs.openpitrix.io"
         weight = 1
     [[languages.zh.menu.main]]
         identifier = "blog"
