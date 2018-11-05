@@ -17,6 +17,7 @@ gopkg /metadata     https://github.com/openpitrix/metadata
 gopkg /metad        https://github.com/openpitrix/metad
 gopkg /logger       https://github.com/openpitrix/logger
 gopkg /notification https://github.com/openpitrix/notification
+gopkg /iam          https://github.com/openpitrix/iam
 
 git {
         path /srv/openpitrix.github.io
